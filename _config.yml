@@ -8,7 +8,7 @@ description: "Open-source infrastructure for atomistic modelling of small-angle 
 url: "https://ccpsas.github.io"
 repository: "ccpsas/ccpsas.github.io"
 logo: "/assets/images/ccpsas-logo.png"
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes"
 
 # Author
 author:
@@ -19,7 +19,6 @@ author:
 
 # Build settings
 markdown: kramdown
-remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-feed
   - jekyll-sitemap
@@ -27,6 +26,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
   - jekyll-include-cache
+  - jekyll-remote-theme
 
 # Navigation
 main:

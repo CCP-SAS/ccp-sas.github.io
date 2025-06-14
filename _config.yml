@@ -1,0 +1,87 @@
+# _config.yml - Minimal Mistakes Jekyll site config for CCP-SAS
+
+# Site Settings
+locale: "en-US"
+title: "CCP-SAS"
+email: "info@ccpsas.org"
+description: "Open-source infrastructure for atomistic modelling of small-angle scattering data"
+url: "https://ccpsas.github.io"
+repository: "ccpsas/ccpsas.github.io"
+logo: "/assets/images/ccpsas-logo.png"
+theme: minimal-mistakes-jekyll
+
+# Author
+author:
+  name: "CCP-SAS Team"
+  avatar: "/assets/images/avatar.png"
+  bio: "Community for Collaborative Computational Projects in Small-Angle Scattering"
+  location: "USA / UK / EU"
+
+# Build settings
+markdown: kramdown
+remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-archives
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-include-cache
+
+# Navigation
+main:
+  - title: "About"
+    url: /about/
+  - title: "Software"
+    url: /software/
+  - title: "Documentation"
+    url: /docs/
+  - title: "Team"
+    url: /team/
+  - title: "Meetings"
+    url: /meetings/
+  - title: "News"
+    url: /news/
+  - title: "Publications"
+    url: /publications/
+
+# Sidebar Navigation for Docs
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/
+    sidebar:
+      nav: "docs"
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "single"
+      author_profile: true
+  - scope:
+      path: ""
+      type: "docs"
+    values:
+      layout: "single"
+      sidebar:
+        nav: "docs"
+  - scope:
+      path: ""
+    values:
+      layout: "single"
+      author_profile: false
+      toc: true
+      toc_sticky: true
+
+# Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/ccpsas"
+    - label: "Contact"
+      icon: "fas fa-envelope"
+      url: "mailto:info@ccpsas.org"

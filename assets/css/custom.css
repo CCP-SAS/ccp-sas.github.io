@@ -1,0 +1,29 @@
+.people-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1.5rem;
+  margin: 1rem 0;
+}
+
+.person-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  background-color: #f9f9f9;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
+
+.profile-pic {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+}
+
+details summary {
+  font-size: 1.25em;
+  margin-top: 1rem;
+  cursor: pointer;
+}

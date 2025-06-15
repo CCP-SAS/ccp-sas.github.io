@@ -3,16 +3,27 @@ layout: single
 title: "People"
 permalink: /people/
 author_profile: false
+custom_css: custom.css
 ---
 
 {% assign groups = site.data.people %}
+
 {% for section in groups %}
-## {{ section[1].title }}
-
-{% for p in section[1].members %}
-- **{{ p.name }}**, {{ p.affiliation }}{% if p.email %} — [{{ p.email }}](mailto:{{ p.email }}){% endif %}
-{% endfor %}
-
+<details open>
+  <summary><strong>{{ section[1].title }}</strong></summary>
+  <div class="people-grid">
+    {% for p in section[1].members %}
+      <div class="person-card">
+        {% if p.image %}
+          <img src="{{ p.image }}" alt="{{ p.name }}" class="profile-pic">
+        {% endif %}
+        <strong>{{ p.name }}</strong><br>
+        {{ p.affiliation }}<br>
+        {% if p.email %}<a href="mailto:{{ p.email }}">{{ p.email }}</a>{% endif %}
+      </div>
+    {% endfor %}
+  </div>
+</details>
 {% endfor %}
 
 ---

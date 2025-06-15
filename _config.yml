@@ -28,25 +28,6 @@ plugins:
   - jekyll-include-cache
   - jekyll-remote-theme
 
-# Navigation
-main:
-  - title: "Home"
-    url: "/"
-  - title: "About"
-    url: /about/
-  - title: "News"
-    url: /news/
-  #- title: "Software"
-  #  url: /software/
-  #- title: "Documentation"
-  #  url: /docs/
-  #- title: "Team"
-  #  url: /team/
-  #- title: "Meetings"
-  #  url: /meetings/
-  #- title: "Publications"
-  #  url: /publications/
-
 # Sidebar Navigation for Docs
 collections:
   posts:

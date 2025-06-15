@@ -58,7 +58,7 @@ defaults:
     values:
       layout: "single"
       author_profile: false
-      toc: true
+      toc: false
       toc_sticky: true
       custom_css: /assets/css/custom.css
 

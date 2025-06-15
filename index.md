@@ -24,7 +24,7 @@ header:
 ## Latest News
 
 <ul class="post-list">
-  {% for post in site.posts limit:3 %}
+  {% for post in site.posts limit:10 %}
     <li>
       <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
       <p class="post-meta">{{ post.date | date: "%B %d, %Y" }}</p>

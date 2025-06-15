@@ -1,8 +1,8 @@
 .people-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 1.5rem;
-  margin: 1rem 0;
+/*  margin: 1rem 0;*/
 }
 
 .person-card {
@@ -26,4 +26,57 @@ details summary {
   font-size: 1.25em;
   margin-top: 1rem;
   cursor: pointer;
+}
+
+/*.people-heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 2.5rem; /* creates vertical space */
+/*  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.25rem;
+  color: #2c3e50;
+} */
+/* Make section titles stand out */
+.people-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #004080;      /* Dark blue or your brand color */
+  border-bottom: 3px solid #004080;
+  padding-bottom: 0.3rem;
+  margin-bottom: 1rem;
+}
+
+.people-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1rem 2rem;
+  margin-bottom: 2rem;
+  padding-left: 1.2rem;
+}
+
+.people-list li {
+  list-style: disc;
+  margin-left: 1rem;
+}
+
+/* Add whitespace between categories */
+details {
+  margin-bottom: 2.5rem;
+}
+
+/* Optional: Styling for individual member cards */
+.person-card {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #fafafa;
+}
+
+/* Optional: profile picture style */
+.profile-pic {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
 }

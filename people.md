@@ -3,7 +3,6 @@ layout: single
 title: "People"
 permalink: /people/
 author_profile: false
-custom_css: custom.css
 ---
 The CCP-SAS project was initiated through a joint NSF/EPRSRC grant. Work on
 further developing the GenApp framework SASSIE-web and deployment continues
@@ -15,7 +14,8 @@ which meets roughly monthly.
 
 {% for section in groups %}
 <details open>
-  <summary><strong>{{ section[1].title }}</strong></summary>
+  <summary><strong><h2 class="people-heading">{{ section[1].title }}</h2>
+</strong></summary>
   <div class="people-grid">
     {% for p in section[1].members %}
       <div class="person-card">

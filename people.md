@@ -5,6 +5,11 @@ permalink: /people/
 author_profile: false
 custom_css: custom.css
 ---
+The CCP-SAS project was initiated through a joint NSF/EPRSRC grant. Work on
+further developing the GenApp framework SASSIE-web and deployment continues
+through various independent support mechanism from NSF, NIST, and EPSRC.
+Planning, direction and are facilitated through a UK/US Leadership Counsel
+which meets roughly monthly.
 
 {% assign groups = site.data.people %}
 

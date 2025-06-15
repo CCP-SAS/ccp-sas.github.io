@@ -1,10 +1,9 @@
-# Navigation
-  - title: "Home"
-    url: "/"
-  - title: "About"
-    url: /about/
-  - title: "News"
-    url: /news/
+- title: "Home"
+  url: "/"
+- title: "About"
+  url: /about/
+- title: "News"
+  url: /news/
   #- title: "Software"
   #  url: /software/
   #- title: "Documentation"

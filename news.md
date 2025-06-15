@@ -1,18 +1,9 @@
 ---
-layout: archive
+layout: posts
 title: "News"
 permalink: /news/
-paginate: 10
+author_profile: false
 ---
 
-Welcome to the CCP‑SAS News Archive. Here you'll find all our latest updates, events, and achievements.
-
-{% for post in paginator.posts %}
-### [{{ post.title }}]({{ post.url }})
-{{ post.date | date: "%B %d, %Y" }}
-
-> {{ post.excerpt }}
-
-{% endfor %}
-
-{% include paginator %}
+Welcome to the CCP-SAS News page. Here you'll find updates on software releases,
+workshops, conference participation, and other community activities.

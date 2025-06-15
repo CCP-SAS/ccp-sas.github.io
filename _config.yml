@@ -30,6 +30,8 @@ plugins:
 
 # Navigation
 main:
+  - title: "Home"
+    url: "/"
   - title: "About"
     url: /about/
   - title: "Software"
@@ -47,6 +49,8 @@ main:
 
 # Sidebar Navigation for Docs
 collections:
+  posts:
+    outpur: true
   docs:
     output: true
     permalink: /:collection/:path/
@@ -60,7 +64,7 @@ defaults:
       type: "posts"
     values:
       layout: "single"
-      author_profile: true
+      author_profile: false
   - scope:
       path: ""
       type: "docs"
@@ -75,6 +79,10 @@ defaults:
       author_profile: false
       toc: true
       toc_sticky: true
+
+#This ensures navigation.yml is used
+navigation:
+  enabled: true
 
 # Footer
 footer:

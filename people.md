@@ -14,8 +14,7 @@ which meets roughly monthly.
 
 {% for section in groups %}
 <details open>
-  <summary><strong><h2 class="people-heading">{{ section[1].title }}</h2>
-</strong></summary>
+  <summary class="people-heading">{{ section[1].title }}</summary>
   <div class="people-grid">
     {% for p in section[1].members %}
       <div class="person-card">

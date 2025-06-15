@@ -61,9 +61,6 @@ defaults:
       toc: true
       toc_sticky: true
 
-#This ensures navigation.yml is used
-navigation:
-  enabled: true
 
 # Footer
 footer:

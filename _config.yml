@@ -34,6 +34,8 @@ main:
     url: "/"
   - title: "About"
     url: /about/
+  - title: "News"
+    url: /news/
   #- title: "Software"
   #  url: /software/
   #- title: "Documentation"
@@ -42,8 +44,6 @@ main:
   #  url: /team/
   #- title: "Meetings"
   #  url: /meetings/
-  - title: "News"
-    url: /news/
   #- title: "Publications"
   #  url: /publications/
 

@@ -60,8 +60,7 @@ defaults:
       author_profile: false
       toc: false
       toc_sticky: true
-      custom_css:
-        - /assets/css/custom.css
+      custom_css: "/assets/css/custom.css"
 
 
 # Footer

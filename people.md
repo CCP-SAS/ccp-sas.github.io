@@ -9,16 +9,9 @@ author_profile: false
 {% for section in groups %}
 ## {{ section[1].title }}
 
-<ul>
-  {% for p in section[1].members %}
-    <li>
-      **{{ p.name }}**, {{ p.affiliation }}
-      {% if p.email %}
-        — [{{ p.email }}](mailto:{{ p.email }})
-      {% endif %}
-    </li>
-  {% endfor %}
-</ul>
+{% for p in section[1].members %}
+- **{{ p.name }}**, {{ p.affiliation }}{% if p.email %} — [{{ p.email }}](mailto:{{ p.email }}){% endif %}
+{% endfor %}
 
 {% endfor %}
 

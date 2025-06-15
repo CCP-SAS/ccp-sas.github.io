@@ -7,7 +7,7 @@ email: "info@ccpsas.org"
 description: "Open-source infrastructure for atomistic modelling of small-angle scattering data"
 url: "https://butlerpd.github.io"
 repository: "bulerpd/ccpsas.github.io"
-logo: "/assets/images/ccpsas-logo.png"
+logo: "/assets/images/ccpsas_logo.png"
 remote_theme: "mmistakes/minimal-mistakes"
 
 # Author

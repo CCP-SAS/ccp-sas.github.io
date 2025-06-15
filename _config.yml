@@ -34,23 +34,23 @@ main:
     url: "/"
   - title: "About"
     url: /about/
-  - title: "Software"
-    url: /software/
-  - title: "Documentation"
-    url: /docs/
-  - title: "Team"
-    url: /team/
-  - title: "Meetings"
-    url: /meetings/
+  #- title: "Software"
+  #  url: /software/
+  #- title: "Documentation"
+  #  url: /docs/
+  #- title: "Team"
+  #  url: /team/
+  #- title: "Meetings"
+  #  url: /meetings/
   - title: "News"
     url: /news/
-  - title: "Publications"
-    url: /publications/
+  #- title: "Publications"
+  #  url: /publications/
 
 # Sidebar Navigation for Docs
 collections:
   posts:
-    outpur: true
+    output: true
   docs:
     output: true
     permalink: /:collection/:path/

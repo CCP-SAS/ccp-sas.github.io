@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "TESTING"
+title: "Test"
 permalink: /test/
 author_profile: false
 classes: wide

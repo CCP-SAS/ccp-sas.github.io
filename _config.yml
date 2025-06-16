@@ -9,9 +9,7 @@ url: "https://butlerpd.github.io"
 repository: "bulerpd/ccpsas.github.io"
 logo: "/assets/images/ccpsas_logo.png"
 remote_theme: "mmistakes/minimal-mistakes"
-# Enable custom head for including main.css
-#include:
-#  - _includes/head-custom.html
+
 # Minimal Mistakes setting
 #minimal_mistakes_skin: default
 
@@ -67,12 +65,7 @@ defaults:
       toc: false
       toc_sticky: true
       classes: wide
-      #custom_css: assets/css/custom.css
-      #header:
-      #  overlay_color: "#000"
-      #  overlay_filter: "0.5"
-      # 👇 This is the key part:
-      #head: head-custom
+
 
 # Footer
 footer:

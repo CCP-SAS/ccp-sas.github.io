@@ -25,6 +25,8 @@ which meets approximately once a month.
         {% endif %}
         <strong>{{ p.name }}</strong>{{ p.affiliation }}{% if p.email %}<a href="mailto:{{ p.email }}">{{ p.email }}</a>{% endif %}
       </div>
+      </br>
+      </br>
     {% endfor %}
   </div>
 </details>

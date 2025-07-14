@@ -23,11 +23,13 @@ which meets approximately once a month.
         {% if p.image %}
           <img src="{{ p.image }}" alt="{{ p.name }}" class="profile-pic">
         {% endif %}
-        <strong>{{ p.name }}</strong>{{ p.affiliation }}{% if p.email %}<a href="mailto:{{ p.email }}">{{ p.email }}</a>{% endif %}
+        <strong>{{ p.name }}</strong> {{ p.affiliation }} {% if p.email %}<a href="mailto:{{ p.email }}">{{ p.email }}</a>{% endif %}
       </div>
     {% endfor %}
   </div>
 </details>
+<br>
+<br>
 {% endfor %}
 
 ---

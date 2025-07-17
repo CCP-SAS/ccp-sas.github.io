@@ -14,6 +14,12 @@ theme: minima
 # Minimal Mistakes setting
 #minimal_mistakes_skin: default
 
+minima:
+  nav_pages:
+    - index.md
+    - about.md
+    - news.md
+    - people.md
 
 # Author
 author:

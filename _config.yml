@@ -1,4 +1,4 @@
-# _config.yml - Minimal Mistakes Jekyll site config for CCP-SAS
+# _config.yml - Minima Jekyll site config for CCP-SAS
 
 # Site Settings
 locale: "en-US"
@@ -8,7 +8,8 @@ description: "Open-source infrastructure for atomistic modelling of small-angle 
 url: "https://butlerpd.github.io"
 repository: "butlerpd/ccpsas.github.io"
 logo: "/assets/images/ccpsas_logo.png"
-remote_theme: "mmistakes/minimal-mistakes"
+theme: minima
+#remote_theme: "mmistakes/minimal-mistakes"
 
 # Minimal Mistakes setting
 #minimal_mistakes_skin: default

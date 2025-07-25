@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: post
 title: "News"
 permalink: /news/
 author_profile: false

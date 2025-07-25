@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: base
 title: "Giraffe IgG project spotlighted in Diamond News"
 date: 2021-09-01
 categories: news

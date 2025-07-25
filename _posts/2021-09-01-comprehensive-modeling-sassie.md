@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: base
 title: "Comprehensive Modeling Using SASSIE"
 date: 2021-09-01
 categories: news

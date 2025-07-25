@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: base
 title: "CCP-SAS Launched"
 date: 2017-05-01
 categories: news

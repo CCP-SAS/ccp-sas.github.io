@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: page
 title: "People"
 permalink: /people/
 author_profile: false

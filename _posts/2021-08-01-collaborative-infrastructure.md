@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: base
 title: "Collaborative Infrastructure with International Community Support"
 date: 2021-08-01
 categories: news

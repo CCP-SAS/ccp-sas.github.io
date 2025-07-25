@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: post
 title: "SASSIE Web Portal Open for New Users"
 date: 2022-11-01
 categories: news

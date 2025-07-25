@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: default
 title: "Test"
 permalink: /test/
 author_profile: false

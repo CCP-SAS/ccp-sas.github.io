@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: post
 title: "Integration with GenApp for Rapid Deployment"
 date: 2021-10-01
 categories: news

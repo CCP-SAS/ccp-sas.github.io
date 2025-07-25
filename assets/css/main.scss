@@ -3,6 +3,12 @@
 
 @import "minimal-mistakes"; // Import default theme styles
 
+.site-title::before {
+	content: url("/assets/ccpsas_logo.png");
+	display: inline-block;
+	position: relative;
+}
+
 .page__inner-wrap {
   max-width: 1200px !important;
   width: 100% !important;

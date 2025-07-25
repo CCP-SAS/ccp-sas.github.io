@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: post
 title: "Workshop on Integration of Experimental Data into Molecular Simulations"
 date: 2023-03-10
 categories: news

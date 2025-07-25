@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: default
 title: "Susan Kruger gives SASSIE tutorial at UMD"
 date: 2023-10-01
 categories: news

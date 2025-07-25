@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: post
 title: "SASSIE and SASSIE-web for Small-Angle Scattering Modeling"
 date: 2021-11-01
 categories: news

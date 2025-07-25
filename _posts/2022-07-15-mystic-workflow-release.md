@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: post
 title: "Mystic Workflow Framework Released"
 date: 2022-07-15
 categories: news

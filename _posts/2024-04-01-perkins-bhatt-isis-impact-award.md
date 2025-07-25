@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: default
 title: "Perkins & Bhatt win 2024 ISIS Society Impact Award"
 date: 2024-04-01
 categories: news

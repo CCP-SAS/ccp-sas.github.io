@@ -11,7 +11,7 @@ url: "https://butlerpd.github.io"
 theme: minima
 
 # Minimal Mistakes setting
-#minimal_mistakes_skin: default
+# minimal_mistakes_skin: default
 
 header_pages:
   - about.md

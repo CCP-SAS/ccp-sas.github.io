@@ -7,6 +7,8 @@
 	content: url("/assets/images/ccpsas_logo.png");
 	display: inline-block;
 	position: relative;
+	width: 205px;
+	height: 61Px;
 }
 
 .page__inner-wrap {
@@ -46,8 +48,8 @@ details summary {
 }
 
 .people-heading {
-  font-size: 2rem;
-  font-weight: 700;
+  font-size: 4rem;
+  font-weight: 800;
   margin-top: 2.5rem; /* creates vertical space */
   color: #004080;      /* Dark blue or your brand color */
   border-bottom: 3px solid #004080;

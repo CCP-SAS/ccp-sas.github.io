@@ -1,5 +1,5 @@
 # fetch_publications.py
-from pyzotero import Zotero
+from pyzotero import zotero
 import yaml
 import re # For regex to clean up DOIs/PMIDs
 import os
@@ -32,7 +32,8 @@ if not api_key:
 
 # --- Initialize Zotero API ---
 try:
-    zot = Zotero(library_id, library_type, api_key)
+    # Use zotero.Zotero to access the class from the imported module
+    zot = zotero.Zotero(library_id, library_type, api_key)
     print("Successfully connected to Zotero API.")
 except Exception as e:
     print(f"Error connecting to Zotero API: {e}")

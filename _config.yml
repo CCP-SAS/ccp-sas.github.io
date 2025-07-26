@@ -10,9 +10,6 @@ url: "https://butlerpd.github.io"
 #logo: "/assets/images/ccpsas_logo.png"
 theme: minima
 
-# Minimal Mistakes setting
-# minimal_mistakes_skin: default
-
 header_pages:
   - about.md
   - news.md

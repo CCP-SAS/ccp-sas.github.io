@@ -3,7 +3,7 @@
 
 @import "minima"; // Import default theme styles
 
-.site-title::before {
+.site-title {
 	content: url("/assets/images/ccpsas_logo.png");
 	display: inline-block;
 	position: relative;
@@ -49,8 +49,8 @@ details summary {
 }
 
 .people-heading {
-  font-size: 4rem;
-  font-weight: 800;
+  font-size: 2rem;
+  font-weight: 700;
   margin-top: 2.5rem; /* creates vertical space */
   color: #004080;      /* Dark blue or your brand color */
   border-bottom: 3px solid #004080;
@@ -91,7 +91,4 @@ details {
   object-fit: cover;
   border-radius: 50%;
   margin-bottom: 0.5rem;
-}
-body {
-  background-color: #ff00ff !important; // Keep this for testing
 }

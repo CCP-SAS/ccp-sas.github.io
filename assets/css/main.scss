@@ -174,3 +174,85 @@ details {
         font-size: 0.9em;
     }
 }
+
+/* assets/css/main.scss */
+
+/* ... (your existing styles, including cover-grid) ... */
+
+.publications-list {
+    margin-top: 3rem;
+    padding-top: 1rem;
+    border-top: 1px solid #eee;
+}
+
+.publication-year {
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #333;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 0.5rem;
+}
+
+.publication-item {
+    margin-bottom: 1.5rem;
+    padding: 1rem;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.publication-authors {
+    font-size: 0.95em;
+    color: #666;
+    margin-bottom: 0.3rem;
+    font-style: italic;
+}
+
+.publication-title {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.publication-journal {
+    font-size: 0.9em;
+    color: #777;
+    margin-bottom: 0.8rem;
+}
+
+.publication-links {
+    margin-top: 0.5rem;
+    a {
+        display: inline-block;
+        background-color: #2a7ae2;
+        color: white;
+        padding: 0.3em 0.8em;
+        border-radius: 4px;
+        text-decoration: none;
+        font-size: 0.85em;
+        margin-right: 0.5em;
+        transition: background-color 0.2s ease;
+
+        &:hover {
+            background-color: #1e5aae;
+            text-decoration: none;
+        }
+    }
+}
+
+/* Adjust font sizes for smaller screens */
+@media (max-width: 768px) {
+    .publication-year {
+        font-size: 1.6em;
+    }
+    .publication-title {
+        font-size: 1em;
+    }
+    .publication-authors, .publication-journal, .publication-links a {
+        font-size: 0.85em;
+    }
+}

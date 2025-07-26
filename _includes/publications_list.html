@@ -1,0 +1,22 @@
+<div class="publications-list">
+  {% assign current_year = 0 %}
+  {% for pub in site.data.publications %}
+    {% if pub.year != current_year %}
+      {% assign current_year = pub.year %}
+      <h2 class="publication-year">{{ pub.year }}</h2>
+    {% endif %}
+    <div class="publication-item">
+      <p class="publication-authors">{{ pub.authors }}</p>
+      <p class="publication-title">{{ pub.title }}</p>
+      <p class="publication-journal">{{ pub.journal }}</p>
+      <div class="publication-links">
+        {% if pub.doi_link %}
+          <a href="{{ pub.doi_link }}" target="_blank" rel="noopener noreferrer">DOI</a>
+        {% endif %}
+        {% if pub.pubmed_link %}
+          <a href="{{ pub.pubmed_link }}" target="_blank" rel="noopener noreferrer">PubMed</a>
+        {% endif %}
+      </div>
+    </div>
+  {% endfor %}
+</div>

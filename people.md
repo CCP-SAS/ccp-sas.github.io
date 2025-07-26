@@ -26,8 +26,6 @@ which meets approximately once a month.
     {% endfor %}
   </div>
 </details>
-<br>
-<br>
 {% endfor %}
 
 ---

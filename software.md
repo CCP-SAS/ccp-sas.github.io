@@ -14,7 +14,7 @@ just click on the 'human' icon in the top-right corner of the Web Portal screen 
 
 If you are a returning user, just login.
 
-<p style="text-align:center; color:red;"><a href:="https://sassie-web.chem.utk.edu/sassie2">SASSIE-Web]</a></p>
+<p style="text-align:center; color:red;"><a href="https://sassie-web.chem.utk.edu/sassie2">SASSIE-Web]</a></p>
 [Link to online documentation and user guides](https://sassie-web.chem.utk.edu/sassie2/docs)
 The Feedback tab on the right of the Web Portal screen may be used to leave suggestions, raise important questions
 or to notify the developers of critical problems.

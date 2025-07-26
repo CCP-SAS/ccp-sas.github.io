@@ -37,13 +37,13 @@ NB: These are not peer-reviewed.
 * [Report: Solvation Determination for Nucleic Acids and Proteins using HyPred](/assets/presentations/Student-Project-Report-Rafael-Soto-2014.pdf); Rafael Soto, 2014 (Supervisors: Hailiang Zhang/Joseph Curtis)
 
 ### Our Logos:
-* Microsoft Powerpoint slide (Office 2007 & later)
-* Simple Logo in colour (PNG format)
-* Simple Logo in greyscale (PNG format)
-* Detailed Logo in colour (PNG format)
-* Detailed Logo in greyscale (PNG format)
-* Project Acknowledgement Slide (Office 2007 & later)
-* Project Acknowledgement Slide (PDF format)
+* [Microsoft Powerpoint slide](/assets/logos/CCPSAS-Logos.pptx) (Office 2007 & later)
+* [Simple Logo in colour](/assets/logos/CCPSAS-Logo-Simple-Colour.png) (PNG format)
+* [Simple Logo in greyscale](/assets/logos/CCPSAS-Logo-Simple-Greyscale.png) (PNG format)
+* [Detailed Logo in colour](/assets/logos/CCPSAS-Logo-Detailed-Colour.png) (PNG format)
+* [Detailed Logo in greyscale](/assets/logos/CCPSAS-Logo-Detailed-Greyscale.png) (PNG format)
+* [Project Acknowledgement Slide](/assets/logos/CCPSAS-Project-Acknowledgement-Slide.pptx) (Office 2007 & later)
+* [Project Acknowledgement Slide](/assets/logos/CCPSAS-Project-Acknowledgement-Slide.pdf) (PDF format)
 
 ### Webinars:
 * [Mantid HPC Challenges](/assets/presentations/Webinar-Draper-20141112-Mantid-HPC-Challenges.pdf); Nick Draper, 12 Nov 2014
@@ -56,12 +56,12 @@ NB: These are not peer-reviewed.
 
 ### Other Reports:
 NB: Annual reports are those submitted to our funding agencies.
-* CCP-SAS Outcomes Report to NSF (January 2019)
-* CCP-SAS Year 3 Report (August 2016)
-* CCP-SAS Year 2 Report (August 2015)
-* CCP-SAS Year 1 Report (June 2014)
+* [CCP-SAS Outcomes Report to NSF](/assets/reports/CCP-SAS_Outcomes_Report.pdf) (January 2019)
+* [CCP-SAS Year 3 Report](/assets/reports/CCPSAS-Year3-Report.pdf) (August 2016)
+* [CCP-SAS Year 2 Report](/assets/reports/CCPSAS-Year2-Report.pdf) (August 2015)
+* [CCP-SAS Year 1 Report](/assets/reports/CCPSAS-Year1-Report.pdf) (June 2014)
 
 ### Developer links:
 * GenApp TRAC Site (Emre Brookes)
 * SASSIE TRAC Site (Joseph Curtis)
-* SCT Developer Site (David Wright)
+* [SCT Developer Site](https://github.com/dww100/sct) (David Wright)

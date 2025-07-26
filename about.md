@@ -2,6 +2,7 @@
 layout: page
 title: "About CCP-SAS"
 permalink: /about/
+author_profile: false
 ---
 # About CCP-SAS
 
@@ -32,9 +33,9 @@ To that end, the project aims to leverage a user and developer community that us
 on a wide-range of cutting-edge chemical problems and all interested parties, particularly beyond the US and UK borders,
 are encouraged to discuss current needs and potential new collaborative projects.
 
-Current Components of CCP-SAS
+<h2>Current Components of CCP-SAS</h2>
 
-Projects directly involved with this project:
+<h3>Projects directly involved with this project:</h3>
 
 * GenApp is a modular framework for multiscale science computations being developed at the University of Texas that
   enables web & gui applications to be generated from same source code.
@@ -43,14 +44,14 @@ Projects directly involved with this project:
   to SAS data.
 * US-SOMO is part of the University of Texas UltraScan II suite for the analysis of AUC and SAS data.
 
-Related Projects of Interest:
+<h3>Related Projects of Interest:</h3>
 
 * The CCP steering panel brings together the chairs of the active UK CCP projects. Professor Stephen Perkins represents
   CCP-SAS on that panel.
 * SasView is an open source collaborative SAS analysis software package based primarily on analytical models.
 * The SAS portal is a project being developed by the canSAS group.
 
-Acknowledgments
+<h2>Acknowledgments<h2>
 
 If you found this software useful to your work please don't forget to acknowledge its use in your publications as
 suggested below and reference this website: http://www.ccpsas.org. Please also consider letting us know by sending us

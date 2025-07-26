@@ -3,8 +3,6 @@ layout: page
 title: "People"
 permalink: /people/
 author_profile: false
-classes: wide
-
 ---
 The CCP-SAS project was initiated through a joint NSF/EPSRC grant. Ongoing
 development of the GenApp framework, SASSIE-web, and related deployment

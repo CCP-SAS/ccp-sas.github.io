@@ -12,6 +12,7 @@ theme: minima
 
 header_pages:
   - about.md
+  - software.md
   - news.md
   - people.md
 

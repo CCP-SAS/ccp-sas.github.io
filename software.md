@@ -9,15 +9,17 @@ The 'user gateway' to the software available under the CCP-SAS project is a webs
 
 To use SASSIE-Web, click on the red link below to be re-directed to our Web Portal.
 
+[SASSIE-Web](https://sassie-web.chem.utk.edu/sassie2)
+
 If this is your first time, you will need to register before you can login to the Web Portal. To register,
 just click on the 'human' icon in the top-right corner of the Web Portal screen and complete the form.
 
 If you are a returning user, just login.
 
-<p style="text-align:center; color:red;"><a href="https://sassie-web.chem.utk.edu/sassie2">SASSIE-Web]</a></p>
-[Link to online documentation and user guides](https://sassie-web.chem.utk.edu/sassie2/docs)
 The Feedback tab on the right of the Web Portal screen may be used to leave suggestions, raise important questions
 or to notify the developers of critical problems.
+
+[Link to online documentation and user guides](https://sassie-web.chem.utk.edu/sassie2/docs)
 
 
 Other Applications

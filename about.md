@@ -4,7 +4,6 @@ title: "About CCP-SAS"
 permalink: /about/
 author_profile: false
 ---
-# About CCP-SAS
 
 CCP-SAS - Collaborative Computational Project for advanced analyses of structural data in chemical biology and soft
 condensed matter. The CCP-SAS project was initiated through a jointly funded EPSRC/NSF (UK/US) grant as a
@@ -51,7 +50,7 @@ are encouraged to discuss current needs and potential new collaborative projects
 * SasView is an open source collaborative SAS analysis software package based primarily on analytical models.
 * The SAS portal is a project being developed by the canSAS group.
 
-<h2>Acknowledgments<h2>
+<h2>Acknowledgments</h2>
 
 If you found this software useful to your work please don't forget to acknowledge its use in your publications as
 suggested below and reference this website: http://www.ccpsas.org. Please also consider letting us know by sending us

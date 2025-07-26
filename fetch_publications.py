@@ -10,7 +10,7 @@ import os
 # For local testing, you can temporarily hardcode or set these env vars in your shell
 
 # If using a User Library:
-library_id = os.environ.get('ZOTERO_USER_ID') # Get user/group ID from environment
+library_id = os.environ.get('YOUR_ZOTERO_USER_ID') # Get user/group ID from environment
 library_type = 'group' # or 'user' - keep this as it is, or get from env if needed
 api_key = os.environ.get('YOUR_ZOTERO_API_KEY')   # Get API key from environment
 

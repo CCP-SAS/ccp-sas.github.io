@@ -7,7 +7,7 @@ author_profile: false
 
 The 'user gateway' to the software available under the CCP-SAS project is a website we call SASSIE-Web.
 
-To use SASSIE-Web, click on the red link below to be re-directed to our Web Portal.
+To use SASSIE-Web, click on the link below to be re-directed to our Web Portal.
 
 [SASSIE-Web](https://sassie-web.chem.utk.edu/sassie2)
 

@@ -1,0 +1,15 @@
+- image: /assets/images/covers/jcc24510-toc-0001-m-reduced.jpg
+  caption: "Monte Carlo simulation algorithm for B-DNA"
+  url: "https://onlinelibrary.wiley.com/doi/abs/10.1002/jcc.24474"
+
+- image: /assets/images/covers/2021_Biophysical_journal_front_cover.jpg
+  caption: "Solution structure of deglycosylated human IgG1 shows the role of CH2 glycans in its conformation."
+  url: "https://doi.org/10.1016/j.bpj.2021.02.038"
+
+- image: /assets/images/covers/2021_jbc_front_cover.jpg
+  caption: "Solution structures of human myeloma IgG3 antibody reveal extended Fab and Fc regions relative to the other IgG subclasses."
+  url: "https://doi.org/10.1016/j.jbc.2021.100995"
+
+- image: /assets/images/covers/JBC_300_1_COVER.jpg
+  caption: "The solution structure of the heavy chain-only C5-Fc nanobody reveals exposed variable regions that are optimal for COVID-19 antigen interactions."
+  url: "https://doi.org/10.1016/j.jbc.2023.105337"

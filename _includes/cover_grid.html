@@ -1,0 +1,15 @@
+{# _includes/cover_grid.html #}
+<div class="cover-grid">
+  {% for item in site.data.covers %}
+  <div class="cover-item">
+    <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">
+      <img src="{{ item.image | relative_url }}" alt="{{ item.caption | escape }}">
+    </a>
+    <div class="cover-caption">
+      <a href="{{ item.url }}" target="_blank" rel="noopener noreferrer">
+        {{ item.caption }}
+      </a>
+    </div>
+  </div>
+  {% endfor %}
+</div>

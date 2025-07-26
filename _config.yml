@@ -16,6 +16,7 @@ header_pages:
   - news.md
   - reports.md
   - people.md
+  - impact.md
 
 # Build settings
 markdown: kramdown

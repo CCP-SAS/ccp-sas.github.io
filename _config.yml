@@ -14,6 +14,7 @@ header_pages:
   - about.md
   - software.md
   - news.md
+  - reports.md
   - people.md
 
 # Build settings

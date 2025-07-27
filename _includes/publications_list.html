@@ -10,29 +10,24 @@
       <p class="publication-title">{{ pub.title }}</p>
       <p class="publication-journal">
             {{ pub.journal }}
-            {%- assign reference_parts = "" -%} {# Initialize an empty string for parts #}
+            {%- assign reference_parts_list = "" | split: "," -%} {# Initialize an empty list for parts #}
 
-            {%- if pub.volume -%}
-              {%- assign reference_parts = reference_parts | append: "Vol. " | append: pub.volume -%}
-            {%- endif -%}
-
-            {%- if pub.issue -%}
-              {%- if pub.volume -%}
-                {%- assign reference_parts = reference_parts | append: "(" | append: pub.issue | append: ")" -%}
-              {%- else -%}
-                {%- assign reference_parts = reference_parts | append: "No. " | append: pub.issue -%}
+            {%- if pub.volume and pub.volume != "" -%}
+              {%- assign vol_issue_part = "Vol. " | append: pub.volume -%}
+              {%- if pub.issue and pub.issue != "" -%}
+                {%- assign vol_issue_part = vol_issue_part | append: "(" | append: pub.issue | append: ")" -%}
               {%- endif -%}
+              {%- assign reference_parts_list = reference_parts_list | push: vol_issue_part -%}
+            {%- elsif pub.issue and pub.issue != "" -%} {# Handles issue without volume #}
+              {%- assign reference_parts_list = reference_parts_list | push: "No. " | append: pub.issue -%}
             {%- endif -%}
 
-            {%- if pub.pages -%}
-              {%- if reference_parts != "" -%}
-                {%- assign reference_parts = reference_parts | append: ", " -%}
-              {%- endif -%}
-              {%- assign reference_parts = reference_parts | append: "pp. " | append: pub.pages -%}
+            {%- if pub.pages and pub.pages != "" -%}
+              {%- assign reference_parts_list = reference_parts_list | push: "pp. " | append: pub.pages -%}
             {%- endif -%}
 
-            {%- if reference_parts != "" -%}
-              , {{ reference_parts }}
+            {%- if reference_parts_list.size > 0 -%}
+              , {{ reference_parts_list | join: ", " }}
             {%- endif -%}
       </p>
       <div class="publication-links">

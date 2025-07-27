@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Reports and Resources"
+title: "Reports"
 permalink: /reports/
 author_profile: false
 ---

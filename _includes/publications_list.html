@@ -10,24 +10,38 @@
       <p class="publication-title">{{ pub.title }}</p>
       <p class="publication-journal">
             {{ pub.journal }}
-            {%- assign reference_parts_list = "" | split: "," -%} {# Initialize an empty list for parts #}
+            {%- assign citation_suffix = "" -%}
 
+            {# Add Volume and Issue #}
             {%- if pub.volume and pub.volume != "" -%}
-              {%- assign vol_issue_part = "Vol. " | append: pub.volume -%}
+              {%- assign volume_issue_str = "Vol. " | append: pub.volume -%}
               {%- if pub.issue and pub.issue != "" -%}
-                {%- assign vol_issue_part = vol_issue_part | append: "(" | append: pub.issue | append: ")" -%}
+                {%- assign volume_issue_str = volume_issue_str | append: "(" | append: pub.issue | append: ")" -%}
               {%- endif -%}
-              {%- assign reference_parts_list = reference_parts_list | push: vol_issue_part -%}
-            {%- elsif pub.issue and pub.issue != "" -%} {# Handles issue without volume #}
-              {%- assign reference_parts_list = reference_parts_list | push: "No. " | append: pub.issue -%}
+              {%- assign citation_suffix = citation_suffix | append: volume_issue_str -%}
+            {%- elsif pub.issue and pub.issue != "" -%} {# Handle issue without volume #}
+              {%- assign citation_suffix = citation_suffix | append: "No. " | append: pub.issue -%}
             {%- endif -%}
 
+            {# Add Pages #}
             {%- if pub.pages and pub.pages != "" -%}
-              {%- assign reference_parts_list = reference_parts_list | push: "pp. " | append: pub.pages -%}
+              {%- if citation_suffix != "" -%} {# Add comma only if volume/issue already present #}
+                {%- assign citation_suffix = citation_suffix | append: ", " -%}
+              {%- endif -%}
+              {%- assign citation_suffix = citation_suffix | append: "pp. " | append: pub.pages -%}
             {%- endif -%}
 
-            {%- if reference_parts_list.size > 0 -%}
-              , {{ reference_parts_list | join: ", " }}
+            {# Add Year #}
+            {%- if pub.year and pub.year != "" -%}
+              {%- if citation_suffix != "" -%} {# Add comma only if volume/pages/issue already present #}
+                {%- assign citation_suffix = citation_suffix | append: " (" | append: pub.year | append: ")" -%}
+              {%- else -%} {# If only year, no leading comma/parentheses #}
+                {%- assign citation_suffix = citation_suffix | append: pub.year -%}
+              {%- endif -%}
+            {%- endif -%}
+
+            {%- if citation_suffix != "" -%}
+              , {{ citation_suffix }}
             {%- endif -%}
       </p>
       <div class="publication-links">

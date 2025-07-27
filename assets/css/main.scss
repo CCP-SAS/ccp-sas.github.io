@@ -92,6 +92,7 @@ details {
   margin-bottom: 0.5rem;
 }
 
+/* stuff for impact page grid of cover pictures */
 .cover-grid {
     display: grid;
     /* Default for 4 columns, adjusting for smaller screens */
@@ -175,9 +176,7 @@ details {
     }
 }
 
-/* assets/css/main.scss */
-
-/* ... (your existing styles, including cover-grid) ... */
+/* Publication list styling for impact page */
 
 .publications-list {
     margin-top: 3rem;
@@ -255,4 +254,25 @@ details {
     .publication-authors, .publication-journal, .publication-links a {
         font-size: 0.85em;
     }
+}
+
+/* --- Featured Image Styling --- */
+.featured-image-container {
+  margin-top: 1.5em; /* Spacing above the image */
+  margin-bottom: 2.5em; /* Spacing below the image */
+  text-align: center; /* Centers the image if it's smaller than its container */
+}
+
+.featured-image {
+  max-width: 100%; /* Ensures the image doesn't overflow its container on smaller screens */
+  height: auto;    /* Maintains the aspect ratio when max-width is applied */
+  display: block;  /* Removes extra space below the image, acts like a block element */
+  margin-left: auto; /* Centers the image horizontally when combined with margin-right: auto */
+  margin-right: auto;
+  border-radius: 8px; /* Optional: Adds subtle rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); /* Optional: Adds a subtle shadow for depth */
+
+  /* You can add more specific styles if needed, e.g.: */
+  /* max-height: 400px; */ /* If you want to limit its height */
+  /* object-fit: cover; */ /* If limiting height, ensures image covers the area, cropping if necessary */
 }

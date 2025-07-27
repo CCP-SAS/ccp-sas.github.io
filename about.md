@@ -22,19 +22,19 @@ models, were also developed to increase the accuracy of scattering calculations 
 SASSIE, the workflow framework which, paired with GenApp as SASSIE-web provided the beginning of a science gateway
 bringing molecular modeling techniques to bear on the analysis of scattering and other experimental data.
 
-Currently GenApp is undergoing major development funded by a new NSF SI2-SSE grant: "GenApp - A Transformative
+Currently, GenApp is undergoing major development funded by a new NSF SI2-SSE grant: "GenApp - A Transformative
 Generalized Application Cyberinfrastructure." Leveraging this effort, work is also ongoing to develop a 2.0 version of
 the SASSIE-web gateway. Constraints from other experimental techniques are also being worked on, while new collaborative
 efforts are being sought out and explored.
 
-The goal is to build a self sustaining international effort that includes facilities and users from around the world.
+The goal is to build a self-sustaining international effort that includes facilities and users from around the world.
 To that end, the project aims to leverage a user and developer community that uses high-performance computing resources
 on a wide-range of cutting-edge chemical problems and all interested parties, particularly beyond the US and UK borders,
 are encouraged to discuss current needs and potential new collaborative projects.
 
-<h2>Current Components of CCP-SAS</h2>
+## Current Components of CCP-SAS
 
-<h3>Projects directly involved with this project:</h3>
+### Projects directly involved with this project:
 
 * GenApp is a modular framework for multiscale science computations being developed at the University of Texas that
   enables web & gui applications to be generated from same source code.
@@ -43,14 +43,14 @@ are encouraged to discuss current needs and potential new collaborative projects
   to SAS data.
 * US-SOMO is part of the University of Texas UltraScan II suite for the analysis of AUC and SAS data.
 
-<h3>Related Projects of Interest:</h3>
+### Related Projects of Interest:
 
 * The CCP steering panel brings together the chairs of the active UK CCP projects. Professor Stephen Perkins represents
   CCP-SAS on that panel.
 * SasView is an open source collaborative SAS analysis software package based primarily on analytical models.
 * The SAS portal is a project being developed by the canSAS group.
 
-<h2>Acknowledgments</h2>
+## Acknowledgments
 
 If you found this software useful to your work please don't forget to acknowledge its use in your publications as
 suggested below and reference this website: http://www.ccpsas.org. Please also consider letting us know by sending us

@@ -103,11 +103,18 @@ for item in items:
             if pubmed_id:
                 pubmed_link = f"https://pubmed.ncbi.nlm.nih.gov/{pubmed_id}/"
 
+        volume = data.get('volume', '')
+        issue = data.get('issue', '')
+        pages = data.get('pages', '')
+
         publications.append({
             'title': title,
             'authors': authors_str,
             'year': year,
             'journal': journal,
+            'volume': volume,
+            'issue': issue,
+            'pages': pages,
             'doi': doi,
             'doi_link': doi_link,
             'pubmed_id': pubmed_id,

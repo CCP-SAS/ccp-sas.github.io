@@ -8,12 +8,38 @@
     <div class="publication-item">
       <p class="publication-authors">{{ pub.authors }}</p>
       <p class="publication-title">{{ pub.title }}</p>
-      <p class="publication-journal">{{ pub.journal }}</p>
+      <p class="publication-journal">
+            {{ pub.journal }}
+            {%- assign reference_parts = "" -%} {# Initialize an empty string for parts #}
+
+            {%- if pub.volume -%}
+              {%- assign reference_parts = reference_parts | append: "Vol. " | append: pub.volume -%}
+            {%- endif -%}
+
+            {%- if pub.issue -%}
+              {%- if pub.volume -%}
+                {%- assign reference_parts = reference_parts | append: "(" | append: pub.issue | append: ")" -%}
+              {%- else -%}
+                {%- assign reference_parts = reference_parts | append: "No. " | append: pub.issue -%}
+              {%- endif -%}
+            {%- endif -%}
+
+            {%- if pub.pages -%}
+              {%- if reference_parts != "" -%}
+                {%- assign reference_parts = reference_parts | append: ", " -%}
+              {%- endif -%}
+              {%- assign reference_parts = reference_parts | append: "pp. " | append: pub.pages -%}
+            {%- endif -%}
+
+            {%- if reference_parts != "" -%}
+              , {{ reference_parts }}
+            {%- endif -%}
+      </p>
       <div class="publication-links">
-        {% if pub.doi_link %}
+        {% if pub.doi_link and pub.doi_link != '' %}
           <a href="{{ pub.doi_link }}" target="_blank" rel="noopener noreferrer">DOI</a>
         {% endif %}
-        {% if pub.pubmed_link %}
+        {% if pub.pubmed_link and pub.pubmed_link != '' %}
           <a href="{{ pub.pubmed_link }}" target="_blank" rel="noopener noreferrer">PubMed</a>
         {% endif %}
       </div>

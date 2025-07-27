@@ -12,30 +12,30 @@
             {{ pub.journal }}
             {%- assign citation_suffix = "" -%}
 
-            {# Add Volume and Issue #}
+            {% comment %} Add Volume and Issue {% endcomment %}
             {%- if pub.volume and pub.volume != "" -%}
               {%- assign volume_issue_str = "Vol. " | append: pub.volume -%}
               {%- if pub.issue and pub.issue != "" -%}
                 {%- assign volume_issue_str = volume_issue_str | append: "(" | append: pub.issue | append: ")" -%}
               {%- endif -%}
               {%- assign citation_suffix = citation_suffix | append: volume_issue_str -%}
-            {%- elsif pub.issue and pub.issue != "" -%} {# Handle issue without volume #}
+            {%- elsif pub.issue and pub.issue != "" -%} {% comment %} Handle issue without volume {% endcomment %}
               {%- assign citation_suffix = citation_suffix | append: "No. " | append: pub.issue -%}
             {%- endif -%}
 
-            {# Add Pages #}
+            {% comment %} Add Pages {% endcomment %}
             {%- if pub.pages and pub.pages != "" -%}
-              {%- if citation_suffix != "" -%} {# Add comma only if volume/issue already present #}
+              {%- if citation_suffix != "" -%} {% comment %} Add comma only if volume/issue already present {% endcomment %}
                 {%- assign citation_suffix = citation_suffix | append: ", " -%}
               {%- endif -%}
               {%- assign citation_suffix = citation_suffix | append: "pp. " | append: pub.pages -%}
             {%- endif -%}
 
-            {# Add Year #}
+            {% comment %} Add Year {% endcomment %}
             {%- if pub.year and pub.year != "" -%}
-              {%- if citation_suffix != "" -%} {# Add comma only if volume/pages/issue already present #}
+              {%- if citation_suffix != "" -%} {% comment %} Add comma only if volume/pages/issue already present {% endcomment %}
                 {%- assign citation_suffix = citation_suffix | append: " (" | append: pub.year | append: ")" -%}
-              {%- else -%} {# If only year, no leading comma/parentheses #}
+              {%- else -%} {% comment %} If only year, no leading comma/parentheses {% endcomment %}
                 {%- assign citation_suffix = citation_suffix | append: pub.year -%}
               {%- endif -%}
             {%- endif -%}

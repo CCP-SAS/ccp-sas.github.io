@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" media="all" href="../../css/SiteStyle.css">
+<link rel="stylesheet" type="text/css" media="all" href="../../css/MeetingStyle.css">
+<link rel="stylesheet" type="text/css" media="all" href="../../css/MeetAgendaStyle.css">
+<link rel="shortcut icon" type="image/x-icon" href="../../media/ccpsas_icon.ico">
+<title>CCP-SAS</title>
+
+</head>
+
+
+<body>
+
+<!-- ADD PAGE SUBTITLE HERE - always start HeaderTitle with <br> -->
+<div id="pageHeader">
+	<div id="HeaderTitle"><br>Meetings and Workshops</div>
+</div>
+
+<!-- ADD NEW MENU ITEM HERE AND ON ALL OTHER TOP PAGES -->
+<div id="menuItem">
+	<a href="../../index.html">home</a>
+	<a href="../../about.html">about CCP-SAS</a> 	
+	<a href="../../use.html">use CCP-SAS</a> 	
+	<a href="../../meetings.html">meetings/workshops</a>
+	<a href="../../resources.html">reports/resources</a>
+    <a href="../../contact.html">people</a>
+    <a href="../../impact.html">impact</a>
+</div>
+
+<div id="textContainer">
+
+<!-- THIS IS WHERE YOU START EDITING FOR SPECIFIC MEETING  
+   Remember the main style sheet defines the default styles which should be overriden only after 
+   careful thought. As a "meeting" page the MeetingStyle sheet is in play and this container
+   should only be used as the container for the elements of the meetings page: title and intro blocks 
+   which span the width of the page followed by a sidebar navigation block and the main content block. 
+-->
+   
+   <div id="MeetingTitle"> <!-- Use 3 lines, title, date, venue-->
+      3rd Annual CCP-SAS Project Workshop</br>
+      May 23-25, 2016</br>
+      NIST Center for Neutron Research</br>
+   </div>
+   
+   <div id="IntroInfo">
+      <!-- This is where you can put some top level information about your meeting --- 
+	       will remain on every page in that meeting set of pages (accessed by side navigation)
+	  -->
+
+      <span style="color:red; font-weight:bold;">NOTE:</span> While there is no fee for attending this Workshop,
+	  it is being held on the NIST campus. As such all participants will be required to register with NIST
+	  <b><span style="font-weight:bold; font-style:italic;">BEFORE May 13, 2016</span></b> in order to gain access!
+	  	  
+	  <p>This Workshop follows on from the previous two workshops at NIST in February 2014 and
+	  Diamond in October of 2014 and the interim closed project meeting held at SAS-2015 in Berlin
+	  in September 2015. The Workshop will consist of three parts.  On Monday will be the presentation sessions
+	  of broad interest to the scientific community. Attendees are encouraged to bring posters explaining
+	  their use of these kinds of modeling techniques or illustrating their need for such.  Tuesday morning will
+	  be devoted to a meeting between the CCP-SAS project and individuals or institutions with activities in
+	  related software development areas, interests in participating in the CCP-SAS current or projected activities
+	  and facilities with potential interest in deploying CCP-SAS products on their servers for use by their users
+	  and thus have a potential interest in helping with maintenance activities.  Discussions will focus on current
+	  activities, directions and needs with a goal of elucidating adjustments to CCP-SAS activities in the remaining
+	  funding cycle, and, more importantly of developing collaborations with other projects and identifying areas for
+	  joint funding applications moving forward. Finally on Wednesday there will be two hands on tutorial sessions:
+	  How to wrap existing code using GenApp to produce a web GUI and run on a cluster backend, and code development
+	  in the SASSIE framework.
+	  </p>
+	  </p>
+
+	  <!--Whereas that Workshop was concerned with the wider context of CCP-SAS, the opportunities and challenges
+	  for it to contribute to bio-oriented soft matter science, and the foundations on which the Project
+	  would be built, this Second Workshop will be concerned with what has been developed to date, and how
+	  the capability of CCP-SAS can be extended to more mainstream soft matter science such as the
+	  simulation of micelles/vesicles/synthetic polymers. There will also be presentations on the 
+	  wider, but related, CCP portfolio and UK supercomputing infrastructure.
+	  <p>
+	  <span style="color:red; font-weight:bold;">NOTE:</span> As the Workshop will be held at the Science & 
+	  Technology Facility Council's Rutherford Appleton Laboratory, home to the Diamond Light Source, registration 
+	  is mandatory in order to gain access. Registration is <i>free</i> but will be on a first-come, first-served 
+	  basis until the maximum attendance is reached (~100 for Mon 6 Oct). <b>Registration will close on Monday 8 September.</b>
+	  <p>
+	  <b>The first day of the Workshop (Monday 6 October) is open to all interested members of the scientific 
+      community. Delegates are encouraged to consider presenting posters.</b> Lunch and refreshments will be provided.
+	  <p>
+	  <b>There will also be a developers meeting on Wednesday 8 October</b> which anyone interested in contributing 
+	  software and expertise to the Project is welcome to attend. If this interests you, please contact <a href="mailto:dave.wright@ucl.ac.uk">Dr David Wright</a> as soon as possible. Tuesday 7 October will be devoted to 
+      organizing the activities of the Project and is restricted to Project members and others specifically invited 
+	  to contribute.
+	  </p>
+      --->
+   </div>
+
+   <!-- This starts the 2 column block with navigation at left and content for that page on right-->  
+   <div id="Navigation">
+       <!-- This is the meeting site navigtion block (as opposed to the main ccpsas navigation
+	        across the top which is still there).  It contains both the navigation menu and a
+			contacts block. Replace the links in the manu list by the pages appropriate to
+			your website - note that the only difference between the program page and other
+			pages will be the special style sheet for creating the schedule.  Once the menu
+			is set ONLY ONE THING CHANGES HERE between different pages:  the "youarehere" ID 
+			moves to the list element that represents the CURRENT PAGE
+	   -->
+
+	   <li id="youarehere"> <a href="Program.html">Program</a> </li>
+       <li> <a href="Registration.html">Registration</a></li>
+       <!--
+	   <li> <a href="Posters.html">Posters </a></li>
+	   -->
+       <li> <a href="Venue.html">Venue</a></li>
+
+	   <div id="ContactInfo">
+         <h4>Meeting Contacts:</h4>
+         Paul Butler </br>
+         University of Tennessee </br>
+         and NIST </br>
+         email: <a href="mailto:pbutler@utk.edu?subject=Question+about+CCPSAS+workshop">pbutler@utk.edu</a>
+		 phone (301) 975-2028 
+	   </div> 
+   </div>
+
+   <div id="MainPanel">
+     <!-- This is the main panel that changes between every page on the particular meeting site.  The
+	      Program page is different only in that after the MainPanelTitle block the page uses the
+		  MeetAgendaStyle style sheet to divide the block into two columns in order to align
+		  the talk time block with the title of that talk as well as providing styles for titles,
+		  days titles, etc.  
+	 -->
+	 
+     <div id="MainPanelTitle">
+	   Program (subject to change)
+	 </div>    
+     <div class="AgendaDayLabel">
+	   Monday May 23, 2016
+	   <div class="AgendaDayComment">
+	       Community Meeting - NCNR, bldg 235, room K04B
+	   </div>  
+	 </div>  
+
+	 <div class="AgendaSessionLabel">
+	   Arrival coffee
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+			<li>08:30 - 09:00</li>
+	 </ul>
+	 <ul class="AgendaTalkTitle">  
+			<li>Coffee and arrival</li>
+	 </ul>
+
+	 <div class="AgendaSessionLabel">
+	   Intro
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+			<li>09:00 - 09:05</li>
+	 </ul>
+	 <ul class="AgendaTalkTitle">  
+			<li>Welcome (Dr. Robert Dimeo - Director NCNR)</li>
+	 </ul>
+
+     <div class="AgendaSessionLabel">
+	   Status and plans of CCP-SAS software infrastucture and tools (Session Chair: Paul Butler)
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+			<li>09:05 - 09:22</li>
+			<li>09:22 - 09:40</li>
+			<li>09:40 - 10:10</li>
+			</br>
+			<li class="Break">10:10 - 10:50</li>
+			<li>10:50 - 11:20</li>
+	 </ul>
+     <ul class="AgendaTalkTitle">  
+			<li>Introduction and background of CCP-SAS project (Paul Butler - UTK/NIST)</li>
+			<li>Overview of current status of CCP-SAS project (Stephen Perkins - UCL)</li>
+			<li>The GenApp Infrastructure: What is it, Current Status and Future Perspectives</br>
+			(Emre Brookes - UTHSC)</li>
+			<li class="Break">Refreshments & Posters (NCNR - K04A)</li>
+			<li>Sassie: A framework for ensemble modeling and analysis (Joseph Curtis - NIST)</li>
+     </ul>
+
+     <div class="AgendaSessionLabel">
+	   Emerging contributions to SASSIE and CCP-SAS (Session Chair: Paul Butler)
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+			<li>11:20 - 11:40</li>
+			<li>11:40 - 12:00</li>
+			</br>
+			<li class="Break">12:00 - 13:30</li>
+			<li>13:30 - 13:50</li>
+			<li>13:50 - 14:10</li>
+			</br>
+	 </ul>
+     <ul class="AgendaTalkTitle">  
+			<li>TAMD development and beyond (Jianhan Chen - KSU)</li>
+			<li>Using accelerated molecular dynamics and Bayesian inference to model protein ensembles
+			in SAXS experiments (Jeff Wereszczyski - IIT/BioCAT)</li>
+            <li class="Break">Lunch at NIST cafeteria</li>
+			<li>NMR constraint - the story of di-ubiquitin (David Fushman - UMD)</li>
+			<li>Soft Matter, SANS and Molecular Dynamics: Unlocking the Structure of Complex Materials (Alison Paul - Cardiff)</li>
+     </ul>
+	 
+     <div class="AgendaSessionLabel">
+	   CCP-SAS Science Use Cases: Tales from the trenches (Session Chair: Steve Perkins)
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+			<li>14:10 - 14:30</li>
+			</br>
+			<li>14:30 - 14:50</li>
+			</br>
+			<li>14:50 - 15:10</li>
+			</br>
+			<li class="Break">15:10 - 15:50</li>
+			<li>15:50 - 16:10</li>
+			</br>
+			<li>16:10 - 16:30</li>
+			<li>16:30 - 16:50</li>
+			</br>
+			<li>16:50 - 17:10</li>
+			</br>
+			<li>17:10 - 17:30</li>
+     </ul>
+     <ul class="AgendaTalkTitle">  
+			<li>Test case for the use of SASSIE as a modeling tool for X-ray scattering data. (Srinivas Chakravarthy - IIT/BioCAT)</li>
+			<li>Complement C4b undergoes a conformational extension with increase in ionic strength (Gary Fung - UCL)</li>
+			<li>Advanced Small Angle Scattering Experiments to Address Biotechnology Problems Require Advanced Analysis
+			Techniques (Nick Clark - Amgen)</li>
+			<li class="Break">Refreshments & Posters (NCNR - K04A)</li>
+			<li>Comparison of SASSIE modelling outcomes for the human antibodies IgG1, IgG2 and IgG4 (Gar Kay Hui - UCL)</li>
+			<li>SAS, Sims, and Soft Matter Self-Assembly (Andrew McCluskey - U. Bath)</li>
+			<li>Effective structure factors in crowded environments: How much does molecular shape matter?
+			(Maria Castellanos - NIST)</li>
+			<li>Taming disorder to some kind of order in biology - the case of SSB (David Scott - Nottinghan U.)</li>
+			<li>Wrapup discussion and feedback session</li>
+     </ul>
+
+     <div class="AgendaDayLabel">
+	   Tuesday May 24 2016
+	   <div class="AgendaDayComment">
+	       Future Collaboration Workshop - NCNR, bldg 235, room K04B
+	   </div>   
+	 </div>
+	 <div class="AgendaSessionLabel">
+	    Potential for inter project collaborations, joint funding opportunities, maintenance and support
+		issues at deployment locations etc.
+	 </div>
+	     <ul class="AgendaTalkTimes">	
+			<li>09:00 - 09:10</li>
+			<li>09:10 - 10:15</li>
+			</br>
+			</br>
+			<li>10:15 - 10:35</li>
+			</br>
+			<li>10:35 - 10:50</li>
+			<li class="Break">10:50 - 11:10</li>
+			<li>11:10 - 11:45</li>
+			</br>
+			<li>11:45 - 12:30</li>
+			<li class="Break">12:30 - 14:00</li>
+	     </ul>
+	     <ul class="AgendaTalkTitle">  
+			<li>Welcome and Introduction - Paul Butler (UTK/NIST CNR)</li>
+			<li>"flash presentations" in random order - Alex Hexemer (ALS); *Andrew Jackson (U. Lund/ESS);
+			Ron Jones (NIST nSoft); Chris Tassone (SSRL); *Peter Dowding (Infineum);
+			Fred Phelan (NIST computational group) - * = remote presentation</li>
+			<li>Community resources: XSEDE and Science Gateways Institute - Marlon Pierce (U. indiana)</li>
+			<li>Quick in absentia updates and other comments - King, Curtis, others</li>
+            <li class="Break">Coffee Break</li>
+			<li>Discussion one: Building communities - common problems, overalps, synergies, and opportunities</li>
+			<li>Discussion two: Proposed outcome/next steps</li>
+            <li class="Break">Lunch (ad hoc - NIST cafeteria or outside)</li>
+	     </ul>
+	 <div class="AgendaSessionLabel">
+	    Ad hoc meetings and discussions generated from previous day and a half
+	 </div>
+	     <ul class="AgendaTalkTimes">	
+			<li>14:00 - 18:00</li>
+	     </ul>
+	     <ul class="AgendaTalkTitle">  
+			<li>Individual discussions as needed</li>
+	     </ul>
+
+     <div class="AgendaDayLabel">
+	   Wednesday May 25 2016
+       <div class="AgendaDayComment">
+	     Hands on coding tutorial Sessions - NCNR, bldg 235, room K04B
+	   </div>
+	 </div>     
+	 <div class="AgendaSessionLabel">
+	     LIMITED SPACE: MUST be registered for tutorial to participate
+	 </div>
+	     <ul class="AgendaTalkTimes">	
+			<li>09:00 - 17:30</li>
+		    <li>09:00 - 17:30</li>
+	     </ul>
+	     <ul class="AgendaTalkTitle">  
+			<li>Wrapping your code for deployment in GenApp (Leader: Emre Brookes UTHSC)</li>
+			<li>[Coding modules into the SASSIE framework] <span style="color:red; font-weight:bold;">Cancelled
+			</span></li>
+	     </ul>
+	 </div> 
+
+</div>
+
+<!-- THIS SHOULD NEVER BE TOUCHED -- at some point we should figure out how to add links in CSS 
+     this can become an single line and the footer can be easily changed across the site (for 
+	 example for adding a sponsor logo or text about sponsors/participants etc etc) -->        
+<div id="footer">
+	<div id="footerImages">
+<!--
+		<a id='CCPSAS simple logo' href="http://www.ccpsas.org"><img src="media/ccpsas_logo_simple_colour.png"></a>
+-->
+		<a id='EPSRC logo' href="http://www.epsrc.ac.uk/"><img src="../../media/epsrc_logo.png"></a>
+		<img src="../../media/blank.png">
+		<a id='CCPSAS simple logo' href="http://www.ccpsas.org"><img src="../../media/ccpsas_logo_detailed_colour.png"></a>
+		<img src="../../media/blank.png">
+		<a id='NSF logo' href="http://www.nsf.org"><img src="../../media/nsf_logo.png"></a>
+	</div>
+</div>
+
+</body></html>

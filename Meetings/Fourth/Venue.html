@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" media="all" href="../../css/SiteStyle.css">
+<link rel="stylesheet" type="text/css" media="all" href="../../css/MeetingStyle.css">
+<link rel="stylesheet" type="text/css" media="all" href="../../css/MeetAgendaStyle.css">
+<link rel="shortcut icon" type="image/x-icon" href="../../media/ccpsas_icon.ico">
+<title>CCP-SAS</title>
+
+</head>
+
+
+<body>
+
+<!-- ADD PAGE SUBTITLE HERE - always start HeaderTitle with <br> -->
+<div id="pageHeader">
+	<div id="HeaderTitle"><br>Meetings and Workshops</div>
+</div>
+
+<!-- ADD NEW MENU ITEM HERE AND ON ALL OTHER TOP PAGES -->
+<div id="menuItem">
+	<a href="../../index.html">home</a>
+	<a href="../../about.html">about CCP-SAS</a> 	
+	<a href="../../use.html">use CCP-SAS</a> 	
+	<a href="../../meetings.html">meetings/workshops</a>
+	<a href="../../resources.html">reports/resources</a>
+    <a href="../../contact.html">people</a>
+    <a href="../../impact.html">impact</a>
+</div>
+
+<div id="textContainer">
+
+<!-- THIS IS WHERE YOU START EDITING FOR SPECIFIC MEETING  
+   Remember the main style sheet defines the default styles which should be overriden only after 
+   careful thought. As a "meeting" page the MeetingStyle sheet is in play and this container
+   should only be used as the container for the elements of the meetings page: title and intro blocks 
+   which span the width of the page followed by a sidebar navigation block and the main content block. 
+-->
+   
+   <div id="MeetingTitle"> <!-- Use 3 lines, title, date, venue-->
+      3rd Annual CCP-SAS Project Workshop</br>
+      May 23-25, 2016</br>
+      NIST Center for Neutron Research</br>
+   </div>
+   
+   <div id="IntroInfo">
+      <!-- This is where you can put some top level information about your meeting --- 
+	       will remain on every page in that meeting set of pages (accessed by side navigation)
+	  -->
+
+      <span style="color:red; font-weight:bold;">NOTE:</span> While there is no fee for attending this Workshop,
+	  it is being held on the NIST campus. As such all participants will be required to register with NIST
+	  <b><span style="font-weight:bold; font-style:italic;">BEFORE May 13, 2016</span></b> in order to gain access!
+	  	  
+	  <p>This Workshop follows on from the previous two workshops at NIST in February 2014 and
+	  Diamond in October of 2014 and the interim closed project meeting held at SAS-2015 in Berlin
+	  in September 2015. The Workshop will consist of three parts.  On Monday will be the presentation sessions
+	  of broad interest to the scientific community. Attendees are encouraged to bring posters explaining
+	  their use of these kinds of modeling techniques or illustrating their need for such.  Tuesday morning will
+	  be devoted to a meeting between the CCP-SAS project and individuals or institutions with activities in
+	  related software development areas, interests in participating in the CCP-SAS current or projected activities
+	  and facilities with potential interest in deploying CCP-SAS products on their servers for use by their users
+	  and thus have a potential interest in helping with maintenance activities.  Discussions will focus on current
+	  activities, directions and needs with a goal of elucidating adjustments to CCP-SAS activities in the remaining
+	  funding cycle, and, more importantly of developing collaborations with other projects and identifying areas for
+	  joint funding applications moving forward. Finally on Wednesday there will be two hands on tutorial sessions:
+	  How to wrap existing code using GenApp to produce a web GUI and run on a cluster backend, and code development
+	  in the SASSIE framework.
+	  </p>
+	  </p>
+   </div>
+     
+   <!-- This starts the 2 column block with navigation at left and content for that page on right-->  
+   <div id="Navigation">
+       <!-- This is the meeting site navigtion block (as opposed to the main ccpsas navigation
+	        across the top which is still there).  It contains both the navigation menu and a
+			contacts block. Replace the links in the manu list by the pages appropriate to
+			your website - note that the only difference between the program page and other
+			pages will be the special style sheet for creating the schedule.  Once the menu
+			is set ONLY ONE THING CHANGES HERE between different pages:  the "youarehere" ID 
+			moves to the list element that represents the CURRENT PAGE
+	   -->
+	   
+	   <li> <a href="Program.html">Program</a> </li>
+       <li id="youarehere"> <a href="Registration.html">Registration </a></li>
+       <!--
+	   <li> <a href="Posters.html">Posters </a></li>
+	   -->
+       <li id="youarehere"> <a href="Venue.html">Venue </a></li>
+	   <div id="ContactInfo">
+         <h4>Meeting Contacts:</h4>
+         Paul Butler </br>
+         University of Tennessee </br>
+         and NIST </br>
+         email: <a href="mailto:pbutler@utk.edu?subject=Question+about+CCPSAS+workshop">pbutler@utk.edu</a>
+		 phone (301) 975-2028 
+	   </div> 
+   </div>
+
+   <div id="MainPanel">
+     <!-- This is the main panel that changes between every page on the particular meeting site.  The
+	      Program page is different only in that after the MainPanelTitle block the page uses the
+		  MeetAgendaStyle style sheet to divide the block into two columns in order to align
+		  the talk time block with the title of that talk as well as providing styles for titles,
+		  days titles, etc.  
+	 -->
+	 
+     <div id="MainPanelTitle">
+	   Housing and Transportation Information
+	 </div>   
+	 The NIST campus is located in Gaithersburg Maryland 10 miles north of the Wasthington DC
+	 beltway. Dulles, Reagan-National and BWI airports all service the greater DC area and
+	 with the new inter-county connector almost equidistant from Gaithersburg. 
+<!--	NOT READY YET ... FIX THIS ONCE WE HAVE INFO FROM HOTELS 
+	 The 
+	 <a href="http://www.higaithersburg.com/" title="Link to Holiday Inn web site">Holiday Inn</a>
+	 on highway 355 (North Frederick Avenue) and Montgomery Village Avenue is the Meeting hotel.  
+	 
+	 THIS IS PART OF ORIGNIAL TEXT UNDER HOUSING BELOW - once we have a conf. hotel may use some of this verbiage
+	 
+	 While there is no reserved block of rooms at any hotel, the <a href="http://www.higaithersburg.com/" title="Link to Holiday Inn web site">Holiday Inn</a>
+	 will be the location of the Project planning sessions on Saturday and Sunday morning, and will 
+	 also be the location for the meet and greet on Thursday evening.  Project personel are encouraged
+	 to consider this hotel for convenience of informal get togethers which is expected to play a large role
+	 in the working part of this meeting.
+-->	 
+	 <h3>Housing</h3>
+	 <p>
+     <img style="margin: 0px 20px 0px 0px;" src="HolidayInnExt.JPG" width="180" height="130" alt="Veiw of Holiday Inn Exterior at night" title="Veiw of Holiday Inn Exterior at night" align="left" />
+	 The Holiday Inn is the workshop hotel for the CCP-SAS project members. There is a small number of extra rooms
+	 blocked for attendees on a first come first served basis. The holiday Inn is located at:
+	 </p>
+	 <p>
+	 2 Montgomery Village Ave </br>
+	 Gaithersburg, MD  20879<br>
+	 301-948-8900
+	 </P>
+     <span style="color:red;"><i><b>Hotel block now closed</b></i></span>
+	 <h3> Group Rate $125/night and includes</h3>
+	   <li>Complimentory Wired/Wireless Internet</li>
+	   <li>Complimentory Shuttle to and from NIST</li>
+	   <li>Complimentory Breakfast with CCP-SAS</li>
+	   <li>IHG Members Rewards Points</li>
+	   <li>Complimentory Shuttle Round Trip to Shady Grove Metro & Anywhere Within 5 Mile Radius</li>
+	   <li>Onsite Restaurant & Bar</li>
+	   <li>Business Center</li>
+	   <li>Fitness Center</li>
+	 <p>
+	 Alternative nearby hotels include the 
+	 <a href="http://www3.hilton.com/en/hotels/maryland/hilton-washington-dc-north-gaithersburg-GAIGHHF/index.html" title="Link to Hilton website">
+	 Hilton</a> and <a href="http://www.marriott.com/hotels/travel/wastg-towneplace-suites-gaithersburg/" title="link to townplace suites website">
+	 TownePlace Suites</a> on Perry Parkway, and the 
+	 <a href="http://homewoodsuites3.hilton.com/en/hotels/maryland/homewood-suites-by-hilton-gaithersburg-washington-dc-north-GAINGHW/index.html">
+	 Homewood suites</a> on Russel Ave.
+	 </p>
+	 
+	 <h3>Traveling to Gaithersburg</h3>
+	
+	 <iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=39.148168,-77.201614&amp;num=1&amp;ie=UTF8&amp;t=m&amp;z=12&amp;ll=39.117009,-77.191658&amp;output=embed"></iframe>
+	 <br /><small><a href="https://maps.google.com/maps?q=39.148168,-77.201614&amp;num=1&amp;ie=UTF8&amp;t=m&amp;z=12&amp;ll=39.117009,-77.191658&amp;source=embed" style="color:#0000FF;text-align:left">
+	 View Larger Map</a></small>
+
+	
+	 <p>
+	 The easiest way to travel to the hotels from any of the three nearby airports is to go to the airport shared ride
+	 counters and book a shuttle.  Cost should be on the order of $35-$45/person.  For larger groups a taxi will probably
+	 be more economical. 
+	 </p>
+	 
+	 <h3>Driving Directions</h3>
+	 <p>
+	 <dl>
+	 <dt><b>To the Holiday Inn</b></dt>
+	     <dd>The Holiday Inn web site provides <a href="http://www.higaithersburg.com/location.php" title="Dirctions to Holiday Inn Gaithersburg">
+		 excellent directions</a> form most any point.</dd>
+	 <dt><b>To The NIST Center for Neutron Sciences</b></dt>
+	     <dd> <a href="http://www.ncnr.nist.gov/travel.html" title="directions to NIST">The NIST CNR website</a> 
+		 provides information for shuttle or metro access as well as local hotel infomation. When driving, 
+		 the address is 100 Bureau Drive.  From the south take exit 10 off of I270.  Turn right off ramp
+		 onto E. Diamond Road. Pass under I270, pass the southbound on-ramp to I270 and take next left (at traffic light)
+		 onto Bureau Drive.  From the North take exit 11 off of I270.  Turn right off ramp onto
+		 Montgomery Village ave.  Pass under railway and through first traffic ligth at Fields Road.
+		 Turn left at next traffic light onto E. Diamond Road.  Take first right from E. Diamond onto
+		 Bureau drive.
+		 <br/> stop at the visitor center to pick up a badge and receive directions. </dd>
+	 </p>
+
+	 
+  
+   </div>
+</div>
+
+<!-- THIS SHOULD NEVER BE TOUCHED -- at some point we should figure out how to add links in CSS 
+     this can become an single line and the footer can be easily changed across the site (for 
+	 example for adding a sponsor logo or text about sponsors/participants etc etc) -->        
+<div id="footer">
+	<div id="footerImages">
+<!--
+		<a id='CCPSAS simple logo' href="http://www.ccpsas.org"><img src="media/ccpsas_logo_simple_colour.png"></a>
+-->
+		<a id='EPSRC logo' href="http://www.epsrc.ac.uk/"><img src="../../media/epsrc_logo.png"></a>
+		<img src="../../media/blank.png">
+		<a id='CCPSAS simple logo' href="http://www.ccpsas.org"><img src="../../media/ccpsas_logo_detailed_colour.png"></a>
+		<img src="../../media/blank.png">
+		<a id='NSF logo' href="http://www.nsf.org"><img src="../../media/nsf_logo.png"></a>
+	</div>
+</div>
+
+</body></html>

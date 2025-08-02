@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" media="all" href="../../css/SiteStyle.css">
+<link rel="stylesheet" type="text/css" media="all" href="../../css/MeetingStyle.css">
+<link rel="stylesheet" type="text/css" media="all" href="../../css/MeetAgendaStyle.css">
+<link rel="shortcut icon" type="image/x-icon" href="../../media/ccpsas_icon.ico">
+<title>CCP-SAS</title>
+
+</head>
+
+
+<body>
+
+<!-- ADD PAGE SUBTITLE HERE - always start HeaderTitle with <br> -->
+<div id="pageHeader">
+	<div id="HeaderTitle"><br>Meetings and Workshops</div>
+</div>
+
+<!-- ADD NEW MENU ITEM HERE AND ON ALL OTHER TOP PAGES -->
+<div id="menuItem">
+	<a href="../../index.html">home</a>
+	<a href="../../about.html">about CCP-SAS</a> 	
+	<a href="../../use.html">use CCP-SAS</a> 	
+	<a href="../../meetings.html">meetings/workshops</a>
+	<a href="../../resources.html">reports/resources</a>
+    <a href="../../contact.html">people</a>
+    <a href="../../impact.html">impact</a>
+</div>
+
+<div id="textContainer">
+
+<!-- THIS IS WHERE YOU START EDITING FOR SPECIFIC MEETING  
+   Remember the main style sheet defines the default styles which should be overriden only after 
+   careful thought. As a "meeting" page the MeetingStyle sheet is in play and this container
+   should only be used as the container for the elements of the meetings page: title and intro blocks 
+   which span the width of the page followed by a sidebar navigation block and the main content block. 
+-->
+   
+   <div id="MeetingTitle"> <!-- Use 3 lines, title, date, venue-->
+      4th CCP-SAS Project Workshop</br>
+      May 23-25, 2016</br>
+      NIST Center for Neutron Research</br>
+   </div>
+   
+   <div id="IntroInfo">
+      <!-- This is where you can put some top level information about your meeting --- 
+	       will remain on every page in that meeting set of pages (accessed by side navigation)
+	  -->
+
+      <span style="color:red; font-weight:bold;">NOTE:</span> While there is no fee for attending this Workshop,
+	  it is being held on the NIST campus. As such all participants will be required to register with NIST
+	  <b><span style="font-weight:bold; font-style:italic;">BEFORE May 13, 2016</span></b> in order to gain access.
+	  We are working on opening the registration as quickly as possible.
+	  	  
+	  <p>This Workshop follows on from the previous two workshops at NIST in February 2014 and
+	  Diamond in October of 2014 and the interim closed project meeting held at SAS-2015 in Berlin
+	  in September 2015. The Workshop will consist of three parts.  On Monday will be the presentation sessions
+	  of broad interest to the scientific community. Attendees are encouraged to bring posters explaining
+	  their use of these kinds of modeling techniques or illustrating their need for such.  Tuesday morning will
+	  be devoted to a meeting between the CCP-SAS project and individuals or institutions with activities in
+	  related software development areas, interests in participating in the CCP-SAS current or projected activities
+	  and facilities with potential interest in deploying CCP-SAS products on their servers for use by their users
+	  and thus have a potential interest in helping with maintenance activities.  Discussions will focus on current
+	  activities, directions and needs with a goal of elucidating adjustments to CCP-SAS activities in the remaining
+	  funding cycle, and, more importantly of developing collaborations with other projects and identifying areas for
+	  joint funding applications moving forward. Finally on Wednesday there will be a tutorial session on how to
+	  wrap existing code using GenApp to produce a web GUI and run on a cluster backend.
+	  </p>
+   </div>
+     
+   <!-- This starts the 2 column block with navigation at left and content for that page on right-->  
+   <div id="Navigation">
+       <!-- This is the meeting site navigtion block (as opposed to the main ccpsas navigation
+	        across the top which is still there).  It contains both the navigation menu and a
+			contacts block. Replace the links in the manu list by the pages appropriate to
+			your website - note that the only difference between the program page and other
+			pages will be the special style sheet for creating the schedule.  Once the menu
+			is set ONLY ONE THING CHANGES HERE between different pages:  the "youarehere" ID 
+			moves to the list element that represents the CURRENT PAGE
+	   -->
+	   
+	   <li> <a href="Program.html">Program</a> </li>
+       <li> <a href="Registration.html">Registration </a></li>
+       <li id="youarehere"> <a href="Posters.html">Posters </a></li>
+       <li> <a href="Venue.html">Venue </a></li>
+	   <div id="ContactInfo">
+         <h4>Meeting Contacts:</h4>
+         Paul Butler </br>
+         University of Tennessee </br>
+         and NIST </br>
+         email: <a href="mailto:pbutler@utk.edu?subject=Question+about+CCPSAS+workshop">pbutler@utk.edu</a>
+		 phone (301) 975-2028 
+	   </div> 
+   </div>
+
+   <div id="MainPanel">
+     <!-- This is the main panel that changes between every page on the particular meeting site.  The
+	      Program page is different only in that after the MainPanelTitle block the page uses the
+		  MeetAgendaStyle style sheet to divide the block into two columns in order to align
+		  the talk time block with the title of that talk as well as providing styles for titles,
+		  days titles, etc.  
+	 -->
+	 
+     <div id="MainPanelTitle">
+	   POSTERS
+	 </div>   
+	 <h3>Confirmed Posters</h3>
+	 Posters will be added as full titles are received
+	 <div id="linkList">
+	 <ul>
+       <li><b>Coarse-graining of Soft Matter Assemblies for Application to Small Angle Scattering</b> (Andrew Mccluskey - U. Bath)</li>
+       <li><b>Science Gateways Community Institute</b> (Nancy Wilkins-Diehr and Marlon Pierce - SDSC and IU)</li>
+       <li><b>Application of Small-Angle Scattering Data to Improve Protein-Protein Docking Success Rate</b> (James A. Snyder - NIST CNR)</li>
+       <li><b>The Flexible Solution Structures Of Mannose-binding Lectin-Associated Serine Protease-1 and -2 Provide Novel Insight On Lectin Pathway Activation</b> (Stephen J. Perkins - UCL)</li>
+       <li><b>Conformations of Nucleosome Arrays in Solution from Small-Angle Scattering</b> (Steven Howell - NIST CNR)</li>
+       <li><b>GenApp Framework for Deployment of SAS Software</b> (Emre Brookes - UTHSCSA)</li>
+       <li><b>Polymer Stabilized Phospholipid Nanodiscs</b> (Ryan Franklin - Hood College)</li>
+       <li><b>SASSIE:  A Framework for Ensemble Modeling and Analysis</b> (Joseph Curtis - NIST CNR)</li>
+       <li><b>Computational Studies of the Depletion-Driven Self-Assembly of Patchy Trimer Colloids and Cubic Colloids</b> (Harold Hatch - NIST Computational Sciences)</li>
+       <li><b>Small-angle neutron scattering of therapeutic proteins</b> (M. Monica Castellanos - NIST CNR)</li>
+       <li><b>Methane Adsorption in Model Porous Materials Studied by Small-Angle Neutron Scattering</b> (Wei-Shan Chiang - UMD)</li>
+       <li><b>Cluster Mediated Dynamics in Concentrated Protein solutions</b> (Doug Godfrin/Yun Liu - UMD)</li>
+       <li><b>Predicting high-concentration protein-protein interactions of MAb solutions with coarse-grained molecular modeling</b> (Cesar Calero-Rubio - UD)</li>
+<!--
+       <li><b>US-SOMO: HPLC-SAXS</b>Emre Brookes (UTHSCSA)</li>
+	   <li><b>Low resolution structure of domains 58 and 59 of Obscurin using small angle X-ray scattering</b >Nathan Wright - James Madison University)</li>
+	   <li><b>Small-Angle Neutron Scattering (SANS) from Polymer-Grafted Nanoparticles</b> (Michael Hore - NIST)</li>
+	   <li><b>Structure Models of Bacterial RNA chaperone Hfq in complex with rpoS leader</b> (Penny Peng - JHU)</li>
+	   <li><b>SASSIE</b> (Joseph Curtis - NIST)</li>
+	   <li><b>structure and function of membrane proteins in bio-mimetic lipid environments</b> (Hirsh Nanda - NIST)</li>
+	   <li><b>Hierarchical O(N) Computation of Small-Angle Scattering Profiles and their Associated Derivatives</b> (Konstantin Berlin - UMD)
+	   <li><b>CCP4 6.4 -MX Software Development and Distribution</b> (Andrey Lebedev)
+-->
+	 </ul>
+	 </div> 
+	  
+   </div>
+</div>
+
+<!-- THIS SHOULD NEVER BE TOUCHED -- at some point we should figure out how to add links in CSS 
+     this can become an single line and the footer can be easily changed across the site (for 
+	 example for adding a sponsor logo or text about sponsors/participants etc etc) -->        
+<div id="footer">
+	<div id="footerImages">
+<!--
+		<a id='CCPSAS simple logo' href="http://www.ccpsas.org"><img src="media/ccpsas_logo_simple_colour.png"></a>
+-->
+		<a id='EPSRC logo' href="http://www.epsrc.ac.uk/"><img src="../../media/epsrc_logo.png"></a>
+		<img src="../../media/blank.png">
+		<a id='CCPSAS simple logo' href="http://www.ccpsas.org"><img src="../../media/ccpsas_logo_detailed_colour.png"></a>
+		<img src="../../media/blank.png">
+		<a id='NSF logo' href="http://www.nsf.org"><img src="../../media/nsf_logo.png"></a>
+	</div>
+</div>
+
+</body></html>

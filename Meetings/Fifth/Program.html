@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" media="all" href="../../css/SiteStyle.css">
+<link rel="stylesheet" type="text/css" media="all" href="../../css/MeetingStyle.css">
+<link rel="stylesheet" type="text/css" media="all" href="../../css/MeetAgendaStyle.css">
+<link rel="shortcut icon" type="image/x-icon" href="../../media/ccpsas_icon.ico">
+<title>CCP-SAS</title>
+
+</head>
+
+
+<body>
+
+<!-- ADD PAGE SUBTITLE HERE - always start HeaderTitle with <br> -->
+<div id="pageHeader">
+	<div id="HeaderTitle"><br>Meetings and Workshops</div>
+</div>
+
+<!-- ADD NEW MENU ITEM HERE AND ON ALL OTHER TOP PAGES -->
+<div id="menuItem">
+	<a href="../../index.html">home</a>
+	<a href="../../about.html">about CCP-SAS</a> 	
+	<a href="../../use.html">use CCP-SAS</a> 	
+	<a href="../../meetings.html">meetings/workshops</a>
+	<a href="../../resources.html">reports/resources</a>
+    <a href="../../contact.html">people</a>
+    <a href="../../impact.html">impact</a>
+</div>
+
+<div id="textContainer">
+
+<!-- THIS IS WHERE YOU START EDITING FOR SPECIFIC MEETING  
+   Remember the main style sheet defines the default styles which should be overriden only after 
+   careful thought. As a "meeting" page the MeetingStyle sheet is in play and this container
+   should only be used as the container for the elements of the meetings page: title and intro blocks 
+   which span the width of the page followed by a sidebar navigation block and the main content block. 
+-->
+   
+   <div id="MeetingTitle"> <!-- Use 3 lines, title, date, venue-->
+      4th Annual CCP-SAS Project Workshop</br>
+      June 19-21, 2017</br>
+      Cardiff University, Cardiff, Wales, UK
+   </div>
+   
+   <div id="IntroInfo">
+      <!-- This is where you can put some top level information about your meeting --- 
+	       will remain on every page in that meeting set of pages (accessed by side navigation)
+	  -->
+	  <p>This Workshop followed on from the previous three workshops at NIST Gaithersburg in February 2014, the 
+	  Diamond Light Source in October 2014, and NIST Gaithersburg in May 2016. There was also an interim closed 
+      project steering meeting held at SAS-2015 in Berlin in September 2015.
+      <p>
+      The Workshop consisted of three parts. On 
+      Monday 19th there were presentation sessions on the work of CCP-SAS, the SASSIE software suite, and allied 
+      simulation efforts of broad interest to the scientific community. Attendees at this were also strongly encouraged 
+      to bring posters showcasing their modelling of biological and soft matter systems, or illustrating their need 
+      for modelling capability.  Tuesday 20th featured more in-depth dialogue between the CCP-SAS project and individuals, networks,  
+      or institutions with activities in related software development areas, with those interested in participating in 
+      future CCP-SAS activities and, more importantly, towards developing collaborations with other projects and 
+      identifying areas for future joint funding applications. Finally, on Wednesday 21st there was informal 
+	  training in the use of the SASSIE software suite and, for developers, an introduction to deploying and using the GenApp 
+	  framework.
+	  <p>
+	  <!-- <span style="color:red; font-weight:bold;">NOTE:</span> As the Workshop will be held on the Cardiff University 
+      campus, registration is mandatory in order to gain access. Registration will be on a first-come, first-served 
+	  basis until the maximum attendance is reached (~100 for Monday 19th). <b>Registration will close on Monday 5 June.</b>
+	  </p>
+	  -->
+	  <span style="color:red; font-weight:bold;">POST-WORKSHOP NOTE:</span> Many presenters have graciously agreed to their 
+	  talks/tutorials being publicly available. Please use the links below to access them. A short report on the meeting can 
+	  be accessed <a href="4th-Annual-CCPSAS-Meeting-Report.pdf">here</a>. Our web server is a little slow to download from, so please be patient!</b>
+	  </p>
+
+   </div>
+     
+   <!-- This starts the 2 column block with navigation at left and content for that page on right-->  
+   <div id="Navigation">
+       <!-- This is the meeting site navigtion block (as opposed to the main ccpsas navigation
+	        across the top which is still there).  It contains both the navigation menu and a
+			contacts block. Replace the links in the manu list by the pages appropriate to
+			your website - note that the only difference between the program page and other
+			pages will be the special style sheet for creating the schedule.  Once the menu
+			is set ONLY ONE THING CHANGES HERE between different pages:  the "youarehere" ID 
+			moves to the list element that represents the CURRENT PAGE
+	   -->
+	   
+	   <li id="youarehere"> <a href="Program.html">Program</a> </li>
+       <!-- <li><a href="https://fs3.formsite.com/DiamondLightSource/form123/index.html">Registration</a></li> -->
+       <li><a href="Program.html">Registration</a></li>
+       <li><a href="4th-Annual-CCPSAS-Meeting-Abstracts-v02.pdf">Poster abstracts (pdf)</a></li>
+       <li><a href="4th-Annual-CCPSAS-Meeting-Programme-v04.pdf">Programme (pdf)</a></li>
+       <li><a href="Venue.html">Venue & other information</a></li>
+	   <div id="ContactInfo">
+         <h4>Meeting Contact:</h4>
+         Prof. Stephen Perkins </br>
+         University College London </br>
+         email: <a href="mailto:s.perkins@ucl.ac.uk?subject=Question+about+CCPSAS+Meeting+in+June">s.perkins@ucl.ac.uk</a>
+	   </div> 
+   </div>
+
+   <div id="MainPanel">
+     <!-- This is the main panel that changes between every page on the particular meeting site.  The
+	      Program page is different only in that after the MainPanelTitle block the page uses the
+		  MeetAgendaStyle style sheet to divide the block into two columns in order to align
+		  the talk time block with the title of that talk as well as providing styles for titles,
+		  days titles, etc.  
+	 -->
+	 
+     <div id="MainPanelTitle">
+       <p>
+       Program
+	 </div>
+   
+     <div class="AgendaDayLabel">
+	   Monday June 19, 2017
+	   <div class="AgendaDayComment">
+	       Community Science Meeting - Beverton Lecture Theatre, Main Building, Cardiff University, Park Place
+	   </div>   
+	 </div>  
+
+	 <div class="AgendaSessionLabel">
+	   Registration
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+			<li class="Break">08:30 - 09:00</li>
+	 </ul>
+	 <ul class="AgendaTalkTitle">  
+			<li class="Break">Registration (in the Viriamu Jones Gallery)</li>
+			<br>
+	 </ul>
+
+	 <div class="AgendaSessionLabel">
+	   Welcomes
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+			<li>09:00 - 09:15</li>
+	 </ul>
+	 <ul class="AgendaTalkTitle">  
+			<li>Address by the Head of the School of Chemistry</li>
+			<li><i>(Damien Murphy, Cardiff)</i></li>
+			<li>Statement on EPSRC support for computational science and the CCP's</li>
+			<li><i>(Read on behalf of Katherine Freeman, EPSRC)</i></li>
+			<li><a href="01_Macdougall.pdf">BBSRC support for computational and structural biology</a></li>
+			<li><i>(David MacDougall, BBSRC)</i></li>
+			<br>
+	 </ul>
+
+     <div class="AgendaSessionLabel">
+	   Review of CCP-SAS
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+			<li>09:15 - 09:30</li>
+			<br>
+			<li>09:30 - 09:45</li>
+			<br>
+			<li>09:45 - 10:05</li>
+			<br>
+			<li>10:05 - 10:25</li>
+			<br><br>
+			<li class="Break">10:30 - 11:00</li>
+			<br>
+	 </ul>
+     <ul class="AgendaTalkTitle">  
+			<li><a href="02_Butler.pdf">The CCP-SAS vision four years later</a></li>
+			<li><i>(Paul Butler, University of Tennessee Knoxville)</i></li>
+			<li><a href="03_Perkins.pdf">Applications and achievements of CCP-SAS</a></li>
+			<li><i>(Stephen Perkins, University College London)</i></li>
+			<li><a href="04_Brookes.pdf">GenApp: The CCP-SAS deployment framework</a></li>
+			<li><i>(Emre Brookes, University of Texas Healthcare Science Center San Antonio)</i></li>
+			<li><a href="05_Bhatt.pdf">The SASSIE Portfolio</a></li>
+			<li><i>(Jayesh Bhatt, University College London)</i></li>
+			<br>
+			<li class="Break">Refreshments & Posters (Viriamu Jones Gallery)</li>
+			<br>
+     </ul>
+
+     <div class="AgendaSessionLabel">
+	   Applications of CCP-SAS in Biology, Biotechnology and Soft Matter
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+			<li>11:00 - 11:15</li>
+			<br>
+			<li>11:15 - 11:30</li>
+			<br>
+			<li>11:30 - 11:45</li>
+			<br>
+			<li>11:45 - 12:00</li>
+			<br>
+			<li>12:00 - 12:15</li>
+			<br>
+			<li>12:15 - 12:30</li>
+			<br><br>
+			<li class="Break">12:30 - 13:45</li>
+			<br>
+	 </ul>
+     <ul class="AgendaTalkTitle">  
+			<li>Experiences of modelling long multi-domain complement proteins</li>
+			<li><i>(Amy Osborne, University College London)</i></li>
+			<li>SASSIE modelling of human IgE and IgG antibodies</li>
+			<li><i>(Jayesh Bhatt, University College London)</i></li>
+			<li>Antibody characterisation and interactions</li>
+			<li><i>(Monica Castellanos, NIST)</i></li>
+			<li><a href="09_Scott.pdf">Very wide-angle scattering of neutrons to look at the solvent layer of proteins</a></li>
+			<li><i>(Dave Scott, Nottingham University)</i></li>
+			<li><a href="10_Lorenz.pdf">HPC and SASSIE modelling of detergent micelles</a></li>
+			<li><i>(Chris Lorenz, King's College London)</i></li>
+			<li><a href="11_Mccluskey.pdf">Surfactants and molecular dynamics</a></li>
+			<li><i>(Andrew McCluskey, University of Bath)</i></li>
+			<br>
+            <li class="Break">Buffet Lunch and Posters (Viriamu Jones Gallery)</li>
+			<br>
+     </ul>
+	 
+     <div class="AgendaSessionLabel">
+	   CCP-SAS Going Forward: Developments and Opportunities - I
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+			<li>13:45 - 14:00</li>
+			<br>
+			<li>14:00 - 14:15</li>
+			<br>
+			<li>14:15 - 14:30</li>
+			<br>
+			<li>14:30 - 14:45</li>
+			<br>
+			<li>14:45 - 15:00</li>
+			<br>
+			<li>15:00 - 15:15</li>
+			<br>
+			<li class="Break">15:15 - 15:45</li>
+			<br>
+     </ul>
+     <ul class="AgendaTalkTitle">  
+			<li><a href="12_Harris.pdf">CCP-BioSim - Successes, challenges and applications</a></li>
+			<li><i>(Sarah Harris, Leeds University)</i></li>
+			<li><a href="13_Wereszczynski.pdf">Determining Minimal Ensemble Models of SAXS Experiments</a></li>
+			<li><i>(Jeff Wereszczynski, Illinois Institute of Technology)</i></li>
+			<li><a href="14_Willock.pdf">Zebedde: Solvated polymer model construction for comparison with SAS data</a></li>
+			<li><i>(David Willock, Cardiff University)</i></li>
+			<!--<li>Computational tools for scattering infrastructure</li>
+			<li><i>(Maria Skepo, Lund University)</i></li>-->
+			<li>Multiscale simulations of macromolecules</li>
+			<li><i>(Paola Carbone, University of Manchester)</i></li>
+			<li>Exploring protein association pathways  with time-resolved SAS</li>
+			<li><i>(Wojciech Potrzebowski, European Spallation Source)</i></li>
+ 			<li>Discussion</li>
+			<br>
+			<li class="Break">Refreshments & Posters (Viriamu Jones Gallery)</li>
+			<br>
+    </ul>
+		 
+     <div class="AgendaSessionLabel">
+	   CCP-SAS Going Forward: Developments and Opportunities - II
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+			<li>15:45 - 16:00</li>
+			<br>
+			<li>16:00 - 16:15</li>
+			<br>
+			<li>16:15 - 16:30</li>
+			<br>
+			<li>16:30 - 16:45</li>
+			<br>
+			<li>16:45 - 17:00</li>
+     </ul>
+     <ul class="AgendaTalkTitle">  
+			<li><a href="17_Headen.pdf">Structural refinement in molecular simulations of non-crystalline systems</a></li>
+			<li><i>(Tom Headen, ISIS Pulsed Neutron Source)</i></li>
+			<li><a href="18_Yong.pdf">DL_Software Modelling Capabilities in Molecular Simulations</a></li>
+			<li><i>(Chin Yong, STFC Scientific Computing Department)</i></li>
+			<li><a href="19_Dowding.pdf">Computer Aided Formulation (CAF): Industrial needs for CCP-SAS</a></li>
+			<li><i>(Peter Dowding, Infineum)</i></li>
+			<li><a href="20_Snow.pdf">The Facility Perspective</a></li>
+			<li><i>(Tim Snow, Diamond Light Source)</i></li>
+ 			<li>Discussion</li>
+			<br>
+    </ul>
+
+	 <div class="AgendaSessionLabel">
+	   Departure
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+			<li>17:00</li>
+     </ul>
+     <ul class="AgendaTalkTitle">  
+			<li>Depart</li>
+			<br>
+    </ul>
+
+	<br>
+	 <!--
+	 	 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+         -->	 
+	 
+     <div class="AgendaDayLabel">
+	   Tuesday June 20 2017
+	   <div class="AgendaDayComment">
+	       Project Business Meeting - Room 0.77, Main Building, Cardiff University, Park Place
+	   </div>
+	 </div>
+	 <p>
+	 <!--
+     <div class="AgendaSessionLabel">
+	   Future Projects Planning Session
+	 </div>
+	 -->
+	 <ul class="AgendaTalkTimes">	
+			<li>09:00 - 10:30</li>
+			<br>
+			<li class="Break">10:30 - 11:00</li>
+			<br>
+			<li>11:00 - 12:30</li>
+			<br>
+			<li class="Break">12:30 - 13:30</li>
+			<br>
+			<li>13:30 - 15:00<li>
+			<br>
+			<li class="Break">15:00 - 15:30</li>
+			<br>
+			<li>15:30 - 16:00<l/i>
+     </ul>
+	 <ul class="AgendaTalkTitle">
+			<li>Legacy & Succession Planning</li>
+			<br>
+			<li class="Break">Refreshments</li>
+			<br>
+			<li>Moving Forward</li>
+			<br>
+			<li class="Break">Buffet Lunch</li>
+			<br>
+			<li>Closing out the Current Grant</li>
+			<br>
+			<li class="Break">Refreshments</li>
+			<br>
+			<li>Project Team Meeting</li>
+			<br>
+	 </ul>
+
+	 <div class="AgendaSessionLabel">
+	   Departure
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+			<li>16:00</li>
+     </ul>
+     <ul class="AgendaTalkTitle">  
+			<li>Depart</li>
+			<br>
+    </ul>
+	   		 
+	 <br>
+		 <!--
+	 	 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+         -->	 
+	 
+     <div class="AgendaDayLabel">
+	   Wednesday June 21 2017
+	   <div class="AgendaDayComment">
+	       Tutorial Sessions - Main Building, Cardiff University, Park Place
+	   </div>
+	 </div>
+	 
+	 <div class="AgendaSessionLabel">
+	   Tutorial (prior registration required)
+	   <br>
+	   Please also see <u><a href="Venue.html#Tutorials">Venue & other information</a></u> for further instructions
+	 </div>
+	 
+	 <ul class="AgendaTalkTimes">	
+			<li>09:00 - 12:15</li>
+			<br><br>
+			<li class="Break">12:15 - 13:30</li>
+			<br>
+     </ul>
+     <ul class="AgendaTalkTitle">  
+			<!-- <li><a href="Bhatt_SASSIE_Tutorial.pdf">SASSIE for beginners</a> <i>(NB: same as 'advanced' below)</li> -->
+			<li>SASSIE for beginners <i>(NB: same as 'advanced' below)</i></li>
+			<li><i>(Jayesh Bhatt, Amy Osborne, Andrew McCluskey & Steve Perkins)</i> - Room 1.25</li>
+			<br>
+			<li class="Break">Lunch (NB: lunch is not provided)</li>
+			<br>
+     </ul>
+		 
+     <div class="AgendaSessionLabel">
+	   Tutorials (prior registration required)
+	   <br>
+	   Please also see <u><a href="Venue.html#Tutorials">Venue & other information</a></u> for further instructions
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+			<li>13:30 - 16:45</li>
+			<br><br>
+			<li>13:30 - 16:45</li>
+     </ul>
+     <ul class="AgendaTalkTitle">  
+			<li><a href="Brookes_GenApp_Tutorial.pdf">Introduction to GenApp</a></li>
+			<li><i>(Emre Brookes)</i> - Room 0.77</li>
+			<br>
+			<!-- <li><a href="Bhatt_SASSIE_Tutorial.pdf">Advanced use of SASSIE</a> <i>(NB: same as 'beginners' above)</i></li> -->
+			<li>Advanced use of SASSIE <i>(NB: same as 'beginners' above)</i></li>
+			<li><i>(Jayesh Bhatt, Amy Osborne, Andrew McCluskey & Steve Perkins)</i> - Room 1.25</li>
+			<br>
+     </ul>
+  	 </div> 
+
+</div>
+
+<!-- THIS SHOULD NEVER BE TOUCHED -- at some point we should figure out how to add links in CSS 
+     this can become an single line and the footer can be easily changed across the site (for 
+	 example for adding a sponsor logo or text about sponsors/participants etc etc) -->        
+<div id="footer">
+	<div id="footerImages">
+		<a id='NSF logo' href="http://www.nsf.org"><img src="../../media/nsf_logo.png"></a>
+		<a id='EPSRC logo' href="http://www.epsrc.ac.uk/"><img src="../../media/epsrc_logo.png"></a>
+		<a id='BBSRC logo' href="http://www.bbsrc.ac.uk/"><img src="../../media/bbsrc_logo.png"></a>
+		</div>
+</div>
+
+</body></html>

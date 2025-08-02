@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" media="all" href="../../css/SiteStyle.css">
+<link rel="stylesheet" type="text/css" media="all" href="../../css/MeetingStyle.css">
+<link rel="stylesheet" type="text/css" media="all" href="../../css/MeetAgendaStyle.css">
+<link rel="shortcut icon" type="image/x-icon" href="../../media/ccpsas_icon.ico">
+<title>CCP-SAS</title>
+
+</head>
+
+
+<body>
+
+<!-- ADD PAGE SUBTITLE HERE - always start HeaderTitle with <br> -->
+<div id="pageHeader">
+	<div id="HeaderTitle"><br>Meetings and Workshops</div>
+</div>
+
+<!-- ADD NEW MENU ITEM HERE AND ON ALL OTHER TOP PAGES -->
+<div id="menuItem">
+	<a href="../../index.html">home</a>
+	<a href="../../about.html">about CCP-SAS</a> 	
+	<a href="../../use.html">use CCP-SAS</a> 	
+	<a href="../../meetings.html">meetings/workshops</a>
+	<a href="../../resources.html">resources</a>
+    <a href="../../contact.html">people</a>
+    <a href="../../impact.html">impact</a>
+</div>
+
+<div id="textContainer">
+
+<!-- THIS IS WHERE YOU START EDITING FOR SPECIFIC MEETING  
+   Remember the main style sheet defines the default styles which should be overriden only after 
+   careful thought. As a "meeting" page the MeetingStyle sheet is in play and this container
+   should only be used as the container for the elements of the meetings page: title and intro blocks 
+   which span the width of the page followed by a sidebar navigation block and the main content block. 
+-->
+   
+   <div id="MeetingTitle"> <!-- Use 3 lines, title, date, venue-->
+      2nd UK CCP-SAS Training Course</br>
+      January 23-25, 2017</br>
+      The Cosener's House, Abingdon-on-Thames, UK</br>
+   </div>
+   
+   <div id="IntroInfo">
+      <!-- This is where you can put some top level information about your meeting --- 
+	       will remain on every page in that meeting set of pages (accessed by side navigation)
+	  -->
+
+	  <p>This intensive course will provide participants with 'hands-on' 'user-level' instruction on how to use SASSIE-Web 
+		for their research, and we are very fortunate that <a href="https://www.researchgate.net/profile/Joseph_Curtis3">Dr Joseph Curtis</a>, the lead developer of <a href="http://www.smallangles.net/sassie/SASSIE_HOME.html">SASSIE</a>, 
+		has agreed to come from the US to deliver the core training.</p>
+	  <p><i>We would also like to gratefully acknowledge the financial sponsorship for this Course provided 
+        by the <a href="http://www.isis.stfc.ac.uk">STFC ISIS Pulsed Neutron & Muon Source</a> and the 
+		<a href="http://www.diamond.ac.uk">Diamond Light Source</a> which has allowed us to keep the 
+		registration fee down.</i></p>
+	  <p>Registration costs £60/person, and includes 2 nights accommodation with evening dinner at The Cosener's House, Lunch on 
+		Days 1 & 2, and refreshments throughout. Windows PC's will be provided for participants to use.</p>
+	  <p><b><i>Please Note: Due to the nature of the course, the number of participants is limited to 16.</i></b>
+	  </p></br>
+
+   </div>
+
+   <!-- This starts the 2 column block with navigation at left and content for that page on right-->  
+   <div id="Navigation">
+       <!-- This is the meeting site navigtion block (as opposed to the main ccpsas navigation
+	        across the top which is still there).  It contains both the navigation menu and a
+			contacts block. Replace the links in the manu list by the pages appropriate to
+			your website - note that the only difference between the program page and other
+			pages will be the special style sheet for creating the schedule.  Once the menu
+			is set ONLY ONE THING CHANGES HERE between different pages:  the "youarehere" ID 
+			moves to the list element that represents the CURRENT PAGE
+	   -->
+
+	   <li id="youarehere"> <a href="UKTrainingCourse.html">Syllabus</a> </li>
+       <li> <a href="https://epayments.bucks.net/stfc/25/Default.aspx">Registration</a></li>
+       <li> <a href="http://www.stfc.ac.uk/about-us/where-we-work/rutherford-appleton-laboratory/the-cosener-s-house/">Venue</a></li>
+
+	   <div id="ContactInfo">
+         <h4>Meeting Contact:</h4>
+         </br>Dr David Scott </br>
+         Research Complex at Harwell </br>
+         and University of Nottingham </br></br>
+         <a href="mailto:dave.scott@rc-harwell.ac.uk?subject=Question+about+CCPSAS+Training+Course">dave.scott@rc-harwell.ac.uk</a>
+	   </div> 
+   </div>
+
+   <div id="MainPanel">
+     <!-- This is the main panel that changes between every page on the particular meeting site.  The
+	      Program page is different only in that after the MainPanelTitle block the page uses the
+		  MeetAgendaStyle style sheet to divide the block into two columns in order to align
+		  the talk time block with the title of that talk as well as providing styles for titles,
+		  days titles, etc.  
+	 -->
+	 
+	 <!--
+	 MONDAY
+	 -->
+     <div id="MainPanelTitle">
+	   Course Syllabus
+	 </div>    
+     <div class="AgendaDayLabel">
+	   Monday January 23, 2017 (DAY 1)
+	 </div>  
+
+	 <div class="AgendaSessionLabel">
+	   Arrival & Registration
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+			<li>12:00 - 12:50</li>
+			</br>
+	 </ul>
+	 <ul class="AgendaTalkTitle">  
+			<li>Arrival & Lunch</li>
+			</br>
+	 </ul>
+
+	 <div class="AgendaSessionLabel">
+	   Welcome
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+			<li>12:50 - 13:00</li>
+			</br>
+	 </ul>
+	 <ul class="AgendaTalkTitle">  
+			<li>Welcome & Introductions (Dr David Scott)</li>
+			</br>
+	 </ul>
+
+     <div class="AgendaSessionLabel">
+	   Session 1
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+			<li>13:00 - 14:00</li>
+			<li>14:00 - 15:00</li>
+			</br>
+			<li class="Break">15:00 - 15:30</li>
+			</br>
+	 </ul>
+     <ul class="AgendaTalkTitle">  
+			<li>Topic 1</li>
+			<li>Topic 2</li>
+			</br>
+			<li class="Break">Refreshments</li>
+			</br>
+     </ul>
+
+     <div class="AgendaSessionLabel">
+	   Session 2
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+			<li>15:30 - 16:00</li>
+			<li>16:00 - 17:00</li>
+			</br>
+			<li class="Break">17:00 - 17:30</li>
+			</br>
+	 </ul>
+     <ul class="AgendaTalkTitle">  
+			<li>Topic 3</li>
+			<li>Topic 4</li>
+			</br>
+			<li class="Break">Refreshments</li>
+			</br>
+     </ul>
+	 
+     <div class="AgendaSessionLabel">
+	   Session 3
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+			<li>17:30 - 18:00</li>
+			<li>18:00 - 19:00</li>
+			</br>
+			<li class="Break">19:30 - 20:30</li>
+			</br>
+     </ul>
+     <ul class="AgendaTalkTitle">  
+			<li>Topic 5</li>
+			<li>Topic 6</li>
+			</br>
+			<li class="Break">Dinner</li>
+			</br>
+     </ul>
+	 
+     <div class="AgendaSessionLabel">
+	   Session 4
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+			<li>20:30 - 21:30</li>
+			</br>
+     </ul>
+     <ul class="AgendaTalkTitle">  
+			<li>Topic 7</li>
+			</br>
+     </ul>
+
+	 <!--
+	 TUESDAY
+	 -->
+
+     <div class="AgendaDayLabel">
+	   Tuesday January 24, 2017 (DAY 2)
+	 </div>
+     <div class="AgendaSessionLabel">
+	   Session 5
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+			<li>08:30 - 09:00</li>
+			<li>09:00 - 10:00</li>
+			</br>
+			<li class="Break">10:00 - 10:30</li>
+			</br>
+	 </ul>
+     <ul class="AgendaTalkTitle">  
+			<li>Topic 8</li>
+			<li>Topic 9</li>
+			</br>
+			<li class="Break">Refreshments</li>
+			</br>
+     </ul>
+
+     <div class="AgendaSessionLabel">
+	   Session 6
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+			<li>10:30 - 11:00</li>
+			<li>11:00 - 12:00</li>
+			</br>
+			<li class="Break">12:00 - 13:00</li>
+			</br>
+	 </ul>
+     <ul class="AgendaTalkTitle">  
+			<li>Topic 10</li>
+			<li>Topic 11</li>
+			</br>
+            <li class="Break">Lunch</li>
+			</br>
+     </ul>
+	 
+     <div class="AgendaSessionLabel">
+	   Session 7
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+			<li>13:00 - 14:00</li>
+			<li>14:00 - 15:00</li>
+			</br>
+			<li class="Break">15:00 - 15:30</li>
+			</br>
+	 </ul>
+     <ul class="AgendaTalkTitle">  
+			<li>Topic 12</li>
+			<li>Topic 13</li>
+			</br>
+			<li class="Break">Refreshments</li>
+			</br>
+     </ul>
+
+     <div class="AgendaSessionLabel">
+	   Session 8
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+			<li>15:30 - 16:00</li>
+			<li>16:00 - 17:00</li>
+			</br>
+			<li class="Break">17:00 - 17:30</li>
+			</br>
+	 </ul>
+     <ul class="AgendaTalkTitle">  
+			<li>Topic 14</li>
+			<li>Topic 15</li>
+			</br>
+			<li class="Break">Refreshments</li>
+			</br>
+     </ul>
+	 
+     <div class="AgendaSessionLabel">
+	   Session 9
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+			<li>17:30 - 18:00</li>
+			<li>18:00 - 19:00</li>
+			</br>
+			<li class="Break">19:30 - 20:30</li>
+			</br>
+     </ul>
+     <ul class="AgendaTalkTitle">  
+			<li>Topic 16</li>
+			<li>Topic 17</li>
+			</br>
+			<li class="Break">Dinner</li>
+			</br>
+     </ul>
+
+     <div class="AgendaSessionLabel">
+	   Session 10
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+			<li>20:30 - 21:30</li>
+			</br>
+     </ul>
+     <ul class="AgendaTalkTitle">  
+			<li>Topic 18</li>
+			</br>
+     </ul>
+
+	 <!--
+	 WEDNESDAY
+	 -->
+
+     <div class="AgendaDayLabel">
+	   Wednesday January 25, 2017 (DAY 3)
+	 </div>
+     <div class="AgendaSessionLabel">
+	   Session 11
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+			<li>08:30 - 09:00</li>
+			<li>09:00 - 10:00</li>
+			</br>
+			<li class="Break">10:00 - 10:30</li>
+			</br>
+	 </ul>
+     <ul class="AgendaTalkTitle">  
+			<li>Topic 19</li>
+			<li>Topic 20</li>
+			</br>
+			<li class="Break">Refreshments</li>
+			</br>
+     </ul>
+
+     <div class="AgendaSessionLabel">
+	   Session 12
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+			<li>10:30 - 11:00</li>
+			<li>11:00 - 11:30</li>
+			</br>
+	 </ul>
+     <ul class="AgendaTalkTitle">  
+			<li>Topic 21</li>
+			<li>Topic 22</li>
+			</br>
+     </ul>
+	 
+	 <div class="AgendaSessionLabel">
+	   Wrapup
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+			<li>11:30 - 12:00</li>
+			</br>
+	 </ul>
+     <ul class="AgendaTalkTitle">  
+			<li>Wrapup & Depart</li>
+			</br>
+			<li class="Break">Please note: Lunch is not provided</li>
+			</br>
+     </ul>
+
+	 </div> 
+
+</div>
+
+<!-- THIS SHOULD NEVER BE TOUCHED -- at some point we should figure out how to add links in CSS 
+     this can become an single line and the footer can be easily changed across the site (for 
+	 example for adding a sponsor logo or text about sponsors/participants etc etc) -->        
+<div id="footer">
+	<div id="footerImages">
+<!--
+		<a id='CCPSAS simple logo' href="http://www.ccpsas.org"><img src="media/ccpsas_logo_simple_colour.png"></a>
+-->
+		<a id='ISIS logo' href="http://www.isis.stfc.ac.uk/"><img src="../../media/isis_logo.png"></a>
+<!---		<img src="../../media/blank.png"> -->
+		<a id='CCPSAS simple logo' href="http://www.ccpsas.org"><img src="../../media/ccpsas_logo_detailed_colour.png"></a>
+<!--		<img src="../../media/blank.png"> -->
+		<a id='DLS logo' href="http://www.diamond.ac.uk"><img src="../../media/dls_logo.png"></a>
+	</div>
+</div>
+
+</body></html>

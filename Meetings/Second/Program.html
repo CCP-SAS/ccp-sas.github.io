@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" media="all" href="../../css/SiteStyle.css">
+<link rel="stylesheet" type="text/css" media="all" href="../../css/MeetingStyle.css">
+<link rel="stylesheet" type="text/css" media="all" href="../../css/MeetAgendaStyle.css">
+<link rel="shortcut icon" type="image/x-icon" href="../../media/ccpsas_icon.ico">
+<title>CCP-SAS</title>
+
+</head>
+
+
+<body>
+
+<!-- ADD PAGE SUBTITLE HERE - always start HeaderTitle with <br> -->
+<div id="pageHeader">
+	<div id="HeaderTitle"><br>Meetings and Workshops</div>
+</div>
+
+<!-- ADD NEW MENU ITEM HERE AND ON ALL OTHER TOP PAGES -->
+<div id="menuItem">
+	<a href="../../index.html">home</a>
+	<a href="../../about.html">about CCP-SAS</a> 	
+	<a href="../../use.html">use CCP-SAS</a> 	
+	<a href="../../meetings.html">meetings/workshops</a>
+	<a href="../../resources.html">reports/resources</a>
+    <a href="../../contact.html">people</a>
+    <a href="../../impact.html">impact</a>
+</div>
+
+<div id="textContainer">
+
+<!-- THIS IS WHERE YOU START EDITING FOR SPECIFIC MEETING  
+   Remember the main style sheet defines the default styles which should be overriden only after 
+   careful thought. As a "meeting" page the MeetingStyle sheet is in play and this container
+   should only be used as the container for the elements of the meetings page: title and intro blocks 
+   which span the width of the page followed by a sidebar navigation block and the main content block. 
+-->
+   
+   <div id="MeetingTitle"> <!-- Use 3 lines, title, date, venue-->
+      2nd Annual CCP-SAS Project Workshop</br>
+      October 6-7, 2014</br>
+      Diamond Light Source, UK
+   </div>
+   
+   <div id="IntroInfo">
+      <!-- This is where you can put some top level information about your meeting --- 
+	       will remain on every page in that meeting set of pages (accessed by side navigation)
+	  -->
+	  This Workshop will follow on from that held at NIST Gaithersburg, USA in February 2014.
+
+	  Whereas that Workshop was concerned with the wider context of CCP-SAS, the opportunities and challenges
+	  for it to contribute to bio-oriented soft matter science, and the foundations on which the Project
+	  would be built, this Second Workshop will be concerned with what has been developed to date, and how
+	  the capability of CCP-SAS can be extended to more mainstream soft matter science such as the
+	  simulation of micelles/vesicles/synthetic polymers. There will also be presentations on the 
+	  wider, but related, CCP portfolio and UK supercomputing infrastructure.
+	  <p>
+	  <span style="color:red; font-weight:bold;">NOTE:</span> As the Workshop will be held at the Science & 
+	  Technology Facility Council's Rutherford Appleton Laboratory, home to the Diamond Light Source, registration 
+	  is mandatory in order to gain access. Registration is <i>free</i> but will be on a first-come, first-served 
+	  basis until the maximum attendance is reached (~100 for Mon 6 Oct). <b>Registration will close on Monday 8 September.</b>
+	  <p>
+	  <b>The first day of the Workshop (Monday 6 October) is open to all interested members of the scientific 
+      community. Delegates are encouraged to consider presenting posters.</b> Lunch and refreshments will be provided.
+	  <p>
+	  <b>There will also be a developers meeting on Wednesday 8 October</b> which anyone interested in contributing 
+	  software and expertise to the Project is welcome to attend. If this interests you, please contact <a href="mailto:dave.wright@ucl.ac.uk">Dr David Wright</a> as soon as possible. Tuesday 7 October will be devoted to 
+      organizing the activities of the Project and is restricted to Project members and others specifically invited 
+	  to contribute.
+	  </p>
+   </div>
+     
+   <!-- This starts the 2 column block with navigation at left and content for that page on right-->  
+   <div id="Navigation">
+       <!-- This is the meeting site navigtion block (as opposed to the main ccpsas navigation
+	        across the top which is still there).  It contains both the navigation menu and a
+			contacts block. Replace the links in the manu list by the pages appropriate to
+			your website - note that the only difference between the program page and other
+			pages will be the special style sheet for creating the schedule.  Once the menu
+			is set ONLY ONE THING CHANGES HERE between different pages:  the "youarehere" ID 
+			moves to the list element that represents the CURRENT PAGE
+	   -->
+	   
+	   <li id="youarehere"> <a href="Program.html">Program</a> </li>
+       <li> <a href="http://www.diamond.ac.uk/Home/Events/2014/CCP-SAS---2nd-Open-Meeting---Joint-Project-Meeting.html">Registration</a></li>
+       <!-- <li> <a href="Posters.html">Posters </a></li>
+       -->
+       <li> <a href="Venue.html">Venue</a></li>
+	   <div id="ContactInfo">
+         <h4>Meeting Contacts:</h4>
+         Prof. Stephen Perkins </br>
+         University College London </br>
+         email: <a href="mailto:s.perkins@ucl.ac.uk?subject=Question+about+CCPSAS+Meeting+in+October">s.perkins@ucl.ac.uk</a>
+	   </div> 
+   </div>
+
+   <div id="MainPanel">
+     <!-- This is the main panel that changes between every page on the particular meeting site.  The
+	      Program page is different only in that after the MainPanelTitle block the page uses the
+		  MeetAgendaStyle style sheet to divide the block into two columns in order to align
+		  the talk time block with the title of that talk as well as providing styles for titles,
+		  days titles, etc.  
+	 -->
+	 
+     <div id="MainPanelTitle">
+	   Program (subject to change)
+	 </div>    
+     <div class="AgendaDayLabel">
+	   Monday October 6, 2014
+	   <div class="AgendaDayComment">
+	       Community Meeting - Diamond Light Source, Meeting Room G53/G54
+	   </div>   
+	 </div>  
+	 <div class="AgendaSessionLabel">
+	   Welcomes
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+			<li>09:00 - 09:10</li>
+		    <li>09:10 - 09:20</li>
+		    <li>09:20 - 09:30</li>
+	 </ul>
+	 <ul class="AgendaTalkTitle">  
+			<li>Diamond welcome (Prof. Andrew Harrison - Diamond CEO)</li>
+		    <li>ISIS welcome (Prof. Robert McGreevy - ISIS Director)</li>
+		    <li>EPSRC and CCP-SAS (Dr Iain Larmour - UK EPSRC)</li>
+	 </ul>
+     <div class="AgendaSessionLabel">
+	   Introduction to the CCP-SAS Project (Session Chair: tbd)
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+			<li>09:30 - 09:40</li>
+	 </ul>
+	 <ul class="AgendaTalkTitle">  
+			<li>The CCP-SAS Vision (Prof. Paul Butler - UTK/NIST, CCP-SAS Co-PI)</li>
+	 </ul>
+     <div class="AgendaSessionLabel">
+	   Related CCP's (Session Chair: tbd)
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+			<li>09:40 - 10:00</li>
+			<li>10:00 - 10:20</li>
+			<br>
+			<br>
+			<br>
+			<br>
+			<li>10:20 - 10:25</li>
+			<li class="Break">10:25 - 11:00</li>
+     </ul>
+	 <ul class="AgendaTalkTitle">  
+			<li>About the CCP's (Prof. Peter Coveney - UCL, Chair of the CCP Steering Panel)</li>
+			<li>'Flash' presentations (Invited CCP Representatives)</li>
+			<ul>
+				<li>Dr Martyn Winn (STFC) - CCP-EM / CCP-BioSim / CCP4</li>
+				<li>Dr Geerten Vuister (Leicester) - CCPN</li>
+				<li>Dr Jonathan Yates (Oxford) - CCP-NC</li>
+				<li>others tbc</li>
+			</ul>
+			<li>Questions & Answers</li>
+			<li class="Break">Refreshments & Posters (Atrium, Diamond House)</li>
+     </ul> 
+     <div class="AgendaSessionLabel">
+	   CCP-SAS (Session Chair: tbd)
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+			<li>11:00 - 11:20</li>
+			<li>11:20 - 11:40</li>
+			<li>11:40 - 11:50</li>
+	 </ul>
+	 <ul class="AgendaTalkTitle">  
+			<li>The CCP-SAS Portfolio (CCP-SAS Developers)</li>
+		    <li>Project Update (Prof. Stephen Perkins - UCL)</li>
+			<li>Questions & Answers</li>
+	 </ul>
+     <div class="AgendaSessionLabel">
+	   UK Supercomputing (Session Chair: tbd)
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+			<li>11:50 - 12:10</li>
+			<br>
+			<li>12:10 - 12:20</li>
+     </ul>
+	 <ul class="AgendaTalkTitle">  
+			<li>Overview of Resources & Access Arrangements (Miss Liz Sim - EPCC Edinburgh)</li>
+			<li>Questions & Answers</li>
+	 </ul>
+     <div class="AgendaSessionLabel">
+	   Talk (Session Chair: tbd)
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+			<li>12:20 - 12:40</li>
+			<p>
+			<li class="Break">12:40 - 13:30</li>
+     </ul>
+	 <ul class="AgendaTalkTitle">  
+			<li>Prof Lise Arleth (Copenhagen) - 'Small-Angle Scattering and Modelling of Complex Biological Structures. Lessons learned from Nanodisc systems'</li>
+			<li class="Break">Buffet Lunch & Posters (Atrium, Diamond House)</li>
+     </ul>
+      <div class="AgendaSessionLabel">
+	   CCP-SAS Test Project Reports (Session Chair: tbd)
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+			<li>13:30 - 13:55</li>
+			<br>
+			<br>
+			<br>
+			<br>
+			<!-- <br> -->
+			<!-- <br> -->
+			<li>13:55 - 14:20</li>
+			<br>
+			<br>
+			<li>14:20 - 14:30</li>
+     </ul>
+	 <ul class="AgendaTalkTitle">  
+			<li>UK-based Projects:</li>
+			<ul>
+				<li>Dr Ruodan Nan (UCL) - 'The solution structures of MASP (mannose-binding lectin-associated serine protease) provides insight on complement activation'</li>
+				<li>Dr Daniel Myatt (ISIS) - 'SASSIE modelling of calmodulin using SANS data'</li>
+				<!-- <li>Dr David Barlow (KCL) - 'Atomistic modelling of nanodisks for SAXS and SANS'</li> -->
+			</ul>
+			<li>US-based Projects:</li>
+			<ul>
+				<li>Dr Nick Clark & Dr Susan Krueger (NIST) - 'SASSIE studies of IDPs, nucleic acids and complexes'</li>
+			</ul>
+			<li>Questions & Answers</li>
+     </ul>
+      <div class="AgendaSessionLabel">
+	   The <i>Zebedde</i> Project (Session Chair: tbd)
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+			<li>14:30 - 14:50</li>
+			<br>
+			<li>14:50 - 15:00</li>
+     </ul>
+	 <ul class="AgendaTalkTitle">  
+			<li>Dr David Willock (Cardiff) - 'Zebedde: Automated structure building with Monte Carlo equilibration'</li>
+			<li>Questions & Answers</li>
+     </ul>
+     <div class="AgendaSessionLabel">
+	   Talk (Session Chair: tbd)
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+			<li>15:00 - 15:20</li>
+     </ul>
+	 <ul class="AgendaTalkTitle">  
+			<li>Dr Dave Adams (Liverpool) - 'Self-sorting low molecular weight gelators'</li>
+     </ul>
+     <div class="AgendaSessionLabel">
+	   Wrap-up (Session Chair: tbd)
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+			<li>15:20 - 15:40</li>
+			<li class="Break">15:40 - 16:00</li>
+			<li>16:00 - 17:00</li>
+			<li>16:00 - 17:00</li>
+     </ul>
+	 <ul class="AgendaTalkTitle">  
+			<li>Open Discussion</li>
+			<li class="Break">Refreshments (Atrium, Diamond House)</li>
+			<li>Depart</li>
+			<li><i>Optional tours of Diamond or ISIS</i></li>
+     </ul>
+
+     <div class="AgendaDayLabel">
+	   Tuesday October 7 2014
+	   <div class="AgendaDayComment">
+	       Project Meeting - Diamond Light Source, Board Room
+	   </div>
+	   <div class="AgendaSessionLabel">
+	       Program
+	   </div>
+  
+	 </div> 
+	 The program for Tuesday will be circulated to Project members separately.
+
+</div>
+
+<!-- THIS SHOULD NEVER BE TOUCHED -- at some point we should figure out how to add links in CSS 
+     this can become an single line and the footer can be easily changed across the site (for 
+	 example for adding a sponsor logo or text about sponsors/participants etc etc) -->        
+<div id="footer">
+	<div id="footerImages">
+		<a id='NSF logo' href="http://www.nsf.org"><img src="../../media/nsf_logo.png"></a>
+		<a id='EPSRC logo' href="http://www.epsrc.ac.uk/"><img src="../../media/epsrc_logo.png"></a>
+	</div>
+</div>
+
+</body></html>

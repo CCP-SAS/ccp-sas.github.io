@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+
+<head>
+
+<link rel="stylesheet" type="text/css" media="all" href="../../css/SiteStyle.css">
+<link rel="stylesheet" type="text/css" media="all" href="../../css/MeetingStyle.css">
+<link rel="stylesheet" type="text/css" media="all" href="../../css/MeetAgendaStyle.css">
+<link rel="shortcut icon" type="image/x-icon" href="../../media/ccpsas_icon.ico">
+<title>CCP-SAS</title>
+
+</head>
+
+
+<body>
+
+<!-- ADD PAGE SUBTITLE HERE - always start HeaderTitle with <br> -->
+<div id="pageHeader">
+	<div id="HeaderTitle"><br>Meetings and Workshops</div>
+</div>
+
+<!-- ADD NEW MENU ITEM HERE AND ON ALL OTHER TOP PAGES -->
+<div id="menuItem">
+	<a href="../../index.html">home</a>
+	<a href="../../about.html">about CCP-SAS</a> 	
+	<a href="../../use.html">use CCP-SAS</a> 	
+	<a href="../../meetings.html">meetings/workshops</a>
+	<a href="../../resources.html">reports/resources</a>
+    <a href="../../contact.html">people</a>
+    <a href="../../impact.html">impact</a>
+</div>
+
+<div id="textContainer">
+
+<!-- THIS IS WHERE YOU START EDITING FOR SPECIFIC MEETING  
+   Remember the main style sheet defines the default styles which should be overriden only after 
+   careful thought. As a "meeting" page the MeetingStyle sheet is in play and this container
+   should only be used as the container for the elements of the meetings page: title and intro blocks 
+   which span the width of the page followed by a sidebar navigation block and the main content block. 
+-->
+   
+   <div id="MeetingTitle"> <!-- Use 3 lines, title, date, venue-->
+      CCP-SAS Kickoff Workshop</br>
+      February 7-9, 2014</br>
+      NIST Center For Neutron Research
+   </div>
+   
+   <div id="IntroInfo">
+      <!-- This is where you can put some top level information about your meeting --- 
+	       will remain on every page in that meeting set of pages (accessed by side navigation)
+	  -->
+
+      <span style="color:red; font-weight:bold;">NOTE:</span> The first day of this Workshop is the open 
+	  community discussion and feedback day, and is being held on the NIST campus.  As such all 
+	  participants for this day must register with NIST in order to gain access. If you wish to
+	  attend please register <span style="font-weight:bold; font-style:italic;">BY January 23, 2014</span>
+	  at the <a href="https://www-s.nist.gov/NCNR-IMS/externalVisitorRegistration.do">NCNR Visitor 
+	  Registration Site</a>. In the "additional comments" box please enter:
+	  <span style="font-style:italic; color:green;">attending the CCP-SAS workshop</span>.  The purpose
+	  of your visit is "meeting" and your contact is "Paul Butler"
+	  <p>
+	  This Friday session will be held at the NCNR on the NIST campus - bldg 235 Room K04B
+	  </p>
+	  <p>
+	  The remainder of the meeting will be devoted to organizing the activities of the project for the 
+	  rest of the year and will be held off the NIST campus.
+	  </p>
+   </div>
+     
+   <!-- This starts the 2 column block with navigation at left and content for that page on right-->  
+   <div id="Navigation">
+       <!-- This is the meeting site navigtion block (as opposed to the main ccpsas navigation
+	        across the top which is still there).  It contains both the navigation menu and a
+			contacts block. Replace the links in the manu list by the pages appropriate to
+			your website - note that the only difference between the program page and other
+			pages will be the special style sheet for creating the schedule.  Once the menu
+			is set ONLY ONE THING CHANGES HERE between different pages:  the "youarehere" ID 
+			moves to the list element that represents the CURRENT PAGE
+	   -->
+	   
+	   <li id="youarehere"> <a href="Program.html">Program</a> </li>
+       <li> <a href="Registration.html">Registration </a></li>
+       <li> <a href="Posters.html">Posters </a></li>
+       <li> <a href="Venue.html">Venue </a></li>
+	   <div id="ContactInfo">
+         <h4>Meeting Contacts:</h4>
+         Prof. Paul Butler </br>
+         University of Tennessee </br>
+         and NIST </br>
+         email: <a href="mailto:pbutler@utk.edu?subject=Question+about+CCPSAS+workshop">pbutler@utk.edu</a>
+		 phone (301) 975-2028 
+	   </div> 
+   </div>
+
+   <div id="MainPanel">
+     <!-- This is the main panel that changes between every page on the particular meeting site.  The
+	      Program page is different only in that after the MainPanelTitle block the page uses the
+		  MeetAgendaStyle style sheet to divide the block into two columns in order to align
+		  the talk time block with the title of that talk as well as providing styles for titles,
+		  days titles, etc.  
+	 -->
+	 
+     <div id="MainPanelTitle">
+	   Program
+	 </div>    
+     <div class="AgendaDayLabel">
+	   Friday Feb 7 2014
+	   <div class="AgendaDayComment">
+	       Community Meeting - NCNR, bldg 235, room K04B
+	   </div>   
+	 </div>  
+	 <ul class="AgendaTalkTimes">	
+		    <li class="Break">08:15 - 08:40</li>
+	 </ul>
+	 <ul class="AgendaTalkTitle">  
+		    <li class="Break">Coffee </li>
+	 </ul>		
+	 <div class="AgendaSessionLabel">
+	   introductory session
+	 </div>
+     <div class="AgendaSessionLabel">
+	   Session Chair: Dan Neumann (NIST)
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+			<li>08:40 - 08:45</li>
+		    <li>08:45 - 08:55</li>
+		    <li>08:55 - 09:15</li>
+	 </ul>
+	 <ul class="AgendaTalkTitle">  
+			<li>NCNR welcome (Dr. Robert Dimeo - NCNR director)</li>
+		    <li>NSF welcoming remarks (Prof Evelyn Goldfield - NSF Chemistry)</li>
+		    <li>Overview of CCP-SAS Project (Paul Butler - UTK/NCNR)</li>
+	 </ul>
+     <div class="AgendaSessionLabel">
+	   World context of the CCP-SAS project
+	 </div>
+     <div class="AgendaSessionLabel">
+	   Session Chair: Anne Martel (ILL)
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+			<li>09:20 - 09:40</li>
+            <li>09:40 - 10:00</li>
+			<li>10:00 - 10:20</li></br>
+			<li class="Break">10:20 - 11:00</li>
+	 </ul>
+	 <ul class="AgendaTalkTitle">  
+			<li>ATSAS (Daniel Myatt - ISIS)</li>
+		    <li>Advanced computing methods for SAXS and GISAXS (Alex Hexemer - Berkeley)</li>
+			<li>BiosctructX and associated SAS software developments (Alun Ashton - Diamond)</li>
+			<li class="Break">Refreshment Break w/poster session</li>
+	 </ul>
+     <div class="AgendaSessionLabel">
+	   Session Chair: Pete Jemian (APS)
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+			<li>11:00 - 11:30</li></br>
+			<li>11:30 - 11:50</li>
+			<li>11:50 - 12:30</li>
+		    <li class="Break">12:30 - 13:50</li>
+     </ul>
+	 <ul class="AgendaTalkTitle">  
+			<li>XSEDE: Supercomputing and Science Gateways (Dwayne John - UTK/Marlon Pierce - U. of Indiana)</li>
+			<li>Overview of modern MD methods (Juergen Koefinger - Max Planck)</li>
+			<li>Structured Discussion Session</li>
+			<li class="Break">Lunch - NIST cafeteria</li>
+     </ul> 
+     <div class="AgendaSessionLabel">
+	   Presentations and Discussion of Scientific Challenges and Opportunities
+	 </div>
+     <div class="AgendaSessionLabel">
+	   Session Chair: Carlos Castaneda (UMD)
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+			<li>13:50 - 14:10</li>
+			<li>14:10 - 14:30</li></br>
+			<li>14:30 - 14:50</li></br>
+			<li>14:50 - 15:10</li></br>
+			<li class="Break">15:10 - 16:00</li>
+	 </ul>
+	 <ul class="AgendaTalkTitle">  
+			<li>Creating software that scientists want to use(Brian Toby - Argonne)</li>
+		    <li>Dilemmas, Obstacles, and Challenges in the Structural Study of Large Nucleoprotein Assemblies using Hybrid Approaches (Kushol Gupta - U. Penn)</li>
+			<li>Why biologists need to derive max-res models from SANS/SAXS data (Jeremy Lakey - Newcastle)</li>
+			<li>Application of SAXS for all-atom macromolecular structure refinement (Alex Grishaev - NIH)</li>
+			<li class="Break">Refreshment break w/posters</li>
+	 </ul>
+     <div class="AgendaSessionLabel">
+	   Session Chair: Edward Lyman (UDEL)
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+			<li>16:00 - 16:20</li></br>
+			<li>16:20 - 16:40</li></br>
+			<li>16:40 - 17:00</li></br>
+			<li>17:00 - 18:00</li>
+			<li class="Break">19:00 - 21:00</li>
+     </ul>
+	 <ul class="AgendaTalkTitle">  
+			<li>SANS studies of drug & gene delivery systems (David Barlow - King's College London)</li>
+			<li>Micelles to Materials: SANS Studies on Self-Assembly (Karen Edler - University of Bath)</li>
+			<li>Probing multi-scale structure in attractive colloids: accomplishments and challenges (Matthew Helgeson - UCSB)</li>
+			<li>Structured Discussion Session</li>
+			<li class="Break">Dinner</li>
+     </ul>
+ 
+ 
+     <div class="AgendaDayLabel">
+	   Saturday Feb 8 2014
+	   <div class="AgendaDayComment">
+	       Project Meeting - Holiday Inn
+	   </div>   
+	 </div>  
+     <div class="AgendaSessionLabel">
+	   Existing Capability: Introductions to the software development foundations 
+	   with focus on practical use of existing packages. (Chair: Paul Butler)
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+		    <li class="Break">08:45 - 09:00</li>
+		    <li>09:00 - 09:45</li>
+			<li>09:45 - 10:30</li></br>
+			<li class="Break">10:30 - 11:00</li>
+			<li>11:00 - 11:45</li></br>
+			<li>11:45 - 12:15</li>
+		    <li class="Break">12:15 - 14:00</li>
+	 </ul>
+	 <ul class="AgendaTalkTitle">  
+		    <li class="Break">Coffee</li>
+		    <li>The SCT/SCTPL/HYDRO suite (Steve Perkins, UCL)</li>
+		    <li>SASSIE: Framework for Ensemble Modeling and Analysis of Scattering Data (Joseph Curtis - NIST)</li>
+		    <li class="Break">Refreshment Break</li>
+		    <li>A new open framework for multiscale science computations and an overview of US-SOMO (Emre Brookes, U. Texas Health Sciences Center -San Antonio)</li>
+		    <li>Open Discussion Session</li>
+			<li class="Break">Lunch (catered)</li>
+	 </ul>
+     <div class="AgendaSessionLabel">
+	   Current status of project and lessons from previous projects (Chair: Steve King)
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+		    <li>14:00 - 14:15</li>
+		    <li>14:15 - 14:30</li>
+			<li>14:30 - 15:00</li></br>
+			<li>15:00 - 15:30</li>
+			<li class="Break">15:30 - 16:00</li>
+	 </ul>
+	 <ul class="AgendaTalkTitle">  
+		    <li>Current status of project in US (Joseph Curtis)</li>
+			<li>Current status of project in UK (Steve Perkins)</li>
+			<li>Lessons from previous collaborative software projects: Mantid (Stuart Campbell) and DANSE/SasView (Paul Butler)
+		    <li><del>Current status/progress on architecture/infrastructure plans</del></li>
+			<li class="Break">Refreshment Break</li>
+	 </ul>
+      <div class="AgendaSessionLabel">
+	   Structured discussion session I
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+		    <li>16:00 - 16:35</li>
+		    <li>16:35 - 17:10</li>
+		    <li>17:10 - 17:40</li>
+		    <li>17:40 - 18:10</li>
+		    <li>18:10 - 19:00</li>
+		    <li class="Break">19:30 - 21:30</li>
+	 </ul>
+	 <ul class="AgendaTalkTitle">  
+		    <li>Core Software Team Discussion (lead: Joseph Curtis)</li>
+		    <li>Chemical Physics Team Discussion (lead: Jianhan Chen)</li>
+		    <li>Software Testing Team Discussion (lead: Steve Perkins)</li>
+		    <li>Dissemination Team Discussion (lead: Steve King)</li>
+			<li>General Discussion</li>
+		    <li class="Break">Dinner</li>
+	 </ul>
+
+ 
+     <div class="AgendaDayLabel">
+	   Sunday Feb 9 2014
+	   <div class="AgendaDayComment">
+	       Project Meeting - Holiday Inn
+	   </div>   
+	 </div>  
+     <div class="AgendaSessionLabel">
+	   	   Structured discussion session II
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+		    <li class="Break">08:45 - 09:00</li>
+		    <li>09:00 - 10:00</li>
+			<li>10:00 - 10:15</li>
+			<li>10:15 - 10:30</li>
+			<li class="Break">10:30 - 11:00</li>
+	 </ul>
+	 <ul class="AgendaTalkTitle">  
+		    <li class="Break">Coffee </li>
+		    <li>Executive Team Discussion</li>
+		    <li>Finalize milestones/achievements for Year 1</li>
+			<li>Identify Work Packages to achieve the above and assign to teams/individuals</li>
+			<li class="Break">Refreshment Break</li>
+	 </ul>
+     <div class="AgendaSessionLabel">
+	   	   Meeting Wrapup
+	 </div>
+	 <ul class="AgendaTalkTimes">	
+			<li>11:00 - 12:30</li>
+		    <li>12:30 - 13:00</li>
+			<li class="Break">13:00 - -------</li>
+	 </ul>
+	 <ul class="AgendaTalkTitle">  
+		    <li>Ad Hoc Discussion Session</li>
+		    <li>Closeout (Executive Team)</li>
+			<li class="Break">Lunch/Adjourn (UK contingent Depart for IAD by 14:30 for 18:15 Departure)</li>
+	 </ul>
+   </div>  
+
+</div>
+
+<!-- THIS SHOULD NEVER BE TOUCHED -- at some point we should figure out how to add links in CSS 
+     this can become an single line and the footer can be easily changed across the site (for 
+	 example for adding a sponsor logo or text about sponsors/participants etc etc) -->        
+<div id="footer">
+	<div id="footerImages">
+		<a id='EPSRC logo' href="http://www.epsrc.ac.uk/"><img src="../../media/epsrc_logo.png"></a>
+		<img src="../../media/blank.png">
+		<a id='CCPSAS simple logo' href="http://www.ccpsas.org"><img src="../../media/ccpsas_logo_detailed_colour.png"></a>
+		<img src="../../media/blank.png">
+		<a id='NSF logo' href="http://www.nsf.org"><img src="../../media/nsf_logo.png"></a>
+	</div>
+</div>
+
+</body></html>

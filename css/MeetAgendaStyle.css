@@ -1,0 +1,58 @@
+/* CCP-SAS meeting Agenda/program style sheet */
+/* Version 1.0       */
+
+/* 
+style sheet for making a nice program agenda each day and session are given in an element 
+that is the full width of the page.  Then within a session gets divided in two columns 
+with time on the left and talk title on right.  Breaks (lunch and coffee) are red with extra padding
+*/
+
+.AgendaDayLabel {
+  font-weight:bold;
+  font-size:13pt;
+  line-height:80%;
+  clear:both;
+  padding-top:12pt;
+  margin-bottom:0px;
+ }
+ 
+.AgendaDayComment {
+  font-family:'times-roman';
+  font-size:10pt;
+  font-style:italic;
+ }
+
+.AgendaSessionLabel {
+  font-family:'times-roman';
+  color:blue;
+  font-style:italic;
+  font-weight:bold;
+  padding-top:5px;
+  clear:both;
+}
+
+.AgendaTalkTimes {
+   width:90px;
+   padding-right:12px;
+   padding-left:0px;
+   text-align: right;
+   margin:0px;
+   list-style:none;
+   float:left;
+ }
+
+.AgendaTalkTitle {
+   width:508px;
+   padding-left:0px;
+   padding-right:0px;
+   text-align: left;
+   margin:0px;
+   list-style:none;
+   float:left;
+   }
+ .Break {
+   color:red;
+   line-height:150%;
+   }
+  
+ 

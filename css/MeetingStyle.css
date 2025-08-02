@@ -1,0 +1,92 @@
+/* CCP-SAS meeting page style sheet */
+/* Version 1.0       */
+
+/* 
+Using Text container from SiteStyle we then break it up into 4 main sections
+sometimes with subsection.  The main areas are meeting title followed by Introductory information 
+each of which span the entire width of the page.  The remainder is divided into two side by side sections:
+a navigation bar of 150px width on the left side, with the main information in the second column on the right.
+This navigation is now a secondary navigation within the particular meeting.
+*/
+
+#MeetingTitle {
+    color:black;
+    text-align:center;
+    font-weight:bold;
+    font-size:13pt;
+    clear:both;
+    margin-bottom:20px;
+ }
+ 
+ 
+#IntroInfo {
+    margin-bottom:10pt;
+}
+
+
+/*
+The navigation section is divided into a vertical menu and contact information
+We have lots of special formating here
+*/
+#Navigation {
+   width:150px;
+   text-align: left;
+   padding-top:50px;
+   margin:0px;
+   float:left;
+ } 
+ 
+#Navigation h4 {
+  font-size:100%;
+  font-weight:bold;
+  padding:0px;
+  margin:0px;
+}
+
+#Navigation li {
+  list-style: none;
+  margin-right:1em;
+}
+
+#Navigation li a:link {
+  text-decoration: none;
+  display: block;
+  background-color:#CD853F ;  /* light teal#66B3B3 - light navy #9999CC*/
+  border: solid 1px #039;
+  border-radius:3px;
+  box-shadow: 30px,0,3px,10px red;
+  padding: .25em;
+}
+
+#Navigation li a:hover { 
+  background-color:#D2691E;
+  color:black;
+  font-weight:bold;
+}
+
+/* This element makes the current page obvious on the menu bar*/
+#youarehere a:link {
+  color:black;
+  font-weight:bold;
+   }
+
+#ContactInfo {
+  margin-top:3em;
+  font-size:smaller; 
+  }
+ 
+ 
+#MainPanel {
+  width:610px;
+  margin:0px;
+  padding-bottom:10px;
+  float:left;
+}
+
+#MainPanelTitle {
+  font-size:200%;
+  font-weight:bold;
+  text-align:center;
+  margin-bottom:20px;
+ }
+

@@ -9,7 +9,7 @@ permalink: /meetings/ # Sets the URL to /meetings/
 This page lists our historical meetings and significant events. Click on each title for more details and photos.
 
 <ul class="meeting-list">
-  {% assign meetings = site.meetings | sort: "date" | reverse %} {# Sort by date, most recent first #}
+  {% assign meetings = site.meetings | sort: "date" | reverse %}  {% comment %} Sort by date, most recent first {% endcomment %}
   {% for meeting in meetings %}
     <li class="meeting-list-item">
       <a href="{{ meeting.url | relative_url }}">

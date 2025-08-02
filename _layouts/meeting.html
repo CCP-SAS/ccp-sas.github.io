@@ -7,7 +7,7 @@ layout: default # Inherit from the default layout (Minima's or your custom one)
     <h1 class="meeting-title">{{ page.title | escape }}</h1>
     <p class="meeting-meta">{{ page.date | date: "%b %-d, %Y" }}</p>
 
-    {# Display photos if available (up to 3) #}
+    {% comment %} Display photos if available (up to 3) {% endcomment %}
     {% if page.photos %}
       <div class="meeting-photos-container">
         {% for photo in page.photos limit: 3 %}
@@ -20,9 +20,7 @@ layout: default # Inherit from the default layout (Minima's or your custom one)
   </header>
 
   <div class="meeting-content">
-    {{ content }} {# This is where the Markdown content of each meeting file goes #}
+    {{ content }}
   </div>
-
-  {# You can add comments section or related meetings here later if needed #}
 
 </article>

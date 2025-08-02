@@ -18,6 +18,11 @@ header_pages:
   - people.md
   - impact.md
 
+collections:
+  meetings:
+    output: true # This makes each meeting create its own page (e.g., /meetings/my-meeting-title.html)
+    permalink: /meetings/:path/ # Defines the URL structure for individual meeting pages
+
 # Build settings
 markdown: kramdown
 plugins:

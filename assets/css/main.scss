@@ -276,3 +276,98 @@ details {
   /* max-height: 400px; */ /* If you want to limit its height */
   /* object-fit: cover; */ /* If limiting height, ensures image covers the area, cropping if necessary */
 }
+
+/* --- Meeting List Styling --- */
+.meeting-list {
+  list-style: none; /* Remove default bullet points */
+  padding-left: 0;
+}
+
+.meeting-list-item {
+  margin-bottom: 2.5em; /* Space between entries */
+  padding-bottom: 1.5em;
+  border-bottom: 1px dashed #eee; /* Light separator line */
+}
+
+.meeting-list-item:last-child {
+  border-bottom: none; /* No border for the last item */
+}
+
+.meeting-list-item a {
+  text-decoration: none; /* Remove underline from links */
+  color: inherit; /* Inherit text color */
+}
+
+.meeting-list-item a:hover {
+  color: #007bff; /* Example hover color */
+}
+
+.meeting-list-date {
+  font-weight: bold;
+  margin-right: 0.5em;
+  color: #555;
+  display: block; /* Make date appear on its own line on small screens */
+}
+
+.meeting-list-title {
+  font-size: 1.4em;
+  font-weight: bold;
+  line-height: 1.2;
+  display: block; /* Make title appear on its own line */
+}
+
+@media (min-width: 600px) {
+  .meeting-list-date {
+    display: inline; /* Back to inline on wider screens */
+  }
+  .meeting-list-title {
+    display: inline; /* Back to inline on wider screens */
+  }
+}
+
+.meeting-list-excerpt {
+  font-size: 0.9em;
+  color: #777;
+  margin-top: 0.5em;
+  line-height: 1.6;
+}
+
+/* --- Individual Meeting Page Styling --- */
+.meeting-header {
+  margin-bottom: 2em;
+}
+
+.meeting-title {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.meeting-meta {
+  font-size: 0.9em;
+  color: #777;
+  margin-bottom: 1.5em;
+}
+
+.meeting-content {
+  line-height: 1.7;
+  font-size: 1.1em;
+}
+
+/* --- Meeting Photos Styling --- */
+.meeting-photos-container {
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow photos to wrap to next line */
+  gap: 1em; /* Space between photos */
+  justify-content: center; /* Center photos horizontally */
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.meeting-photo {
+  max-width: 100%; /* Ensure photos don't overflow on small screens */
+  flex: 1 1 auto; /* Allow photos to grow/shrink based on space */
+  max-height: 300px; /* Limit height of photos for consistency */
+  object-fit: contain; /* Contain the image within the dimensions, maintaining aspect ratio */
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}

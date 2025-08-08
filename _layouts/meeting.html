@@ -1,26 +1,46 @@
 ---
-layout: default # Inherit from the default layout (Minima's or your custom one)
+layout: default
 ---
-<article class="meeting">
 
-  <header class="meeting-header">
-    <h1 class="meeting-title">{{ page.title | escape }}</h1>
-    <p class="meeting-meta">{{ page.date | date: "%b %-d, %Y" }}</p>
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-    {% comment %} Display photos if available (up to 3) {% endcomment %}
-    {% if page.photos %}
-      <div class="meeting-photos-container">
-        {% for photo in page.photos limit: 3 %}
-          <img src="{{ photo | relative_url }}"
-               alt="{{ page.title | escape }} - Photo {{ forloop.index }}"
-               class="meeting-photo">
-        {% endfor %}
-      </div>
-    {% endif %}
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {{ page.date | date: "%b %-d, %Y" }}
+      </time>
+      {%- if page.author -%}
+        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+      {%- endif -%}
+    </p>
   </header>
 
-  <div class="meeting-content">
+  <div class="post-content e-content" itemprop="articleBody">
+
+    {%- if page.top_photos and page.top_photos.size > 0 -%}
+      <div class="meeting-photos-top">
+        {%- for photo in page.top_photos -%}
+          <img src="{{ photo.url | relative_url }}" alt="{{ photo.alt | default: 'Meeting photo' }}">
+        {%- endfor -%}
+      </div>
+    {%- endif -%}
+
     {{ content }}
+
+    {%- if page.bottom_photos and page.bottom_photos.size > 0 -%}
+      <div class="meeting-photos-bottom">
+        {%- for photo in page.bottom_photos -%}
+          <img src="{{ photo.url | relative_url }}" alt="{{ photo.alt | default: 'Meeting photo' }}">
+        {%- endfor -%}
+      </div>
+    {%- endif -%}
+
   </div>
 
+  {%- if site.disqus.shortname -%}
+    {%- include disqus_comments.html -%}
+  {%- endif -%}
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
 </article>

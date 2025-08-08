@@ -354,20 +354,30 @@ details {
 }
 
 /* --- Meeting Photos Styling --- */
-.meeting-photos-container {
-  display: flex; /* Use flexbox for layout */
-  flex-wrap: wrap; /* Allow photos to wrap to next line */
-  gap: 1em; /* Space between photos */
-  justify-content: center; /* Center photos horizontally */
-  margin-top: 2em;
-  margin-bottom: 2em;
+
+.meeting-photos-top {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem; /* Adjust spacing between photos as needed */
+  margin: 1rem 0 2rem;
 }
 
-.meeting-photo {
-  max-width: 100%; /* Ensure photos don't overflow on small screens */
-  flex: 1 1 auto; /* Allow photos to grow/shrink based on space */
-  max-height: 300px; /* Limit height of photos for consistency */
-  object-fit: contain; /* Contain the image within the dimensions, maintaining aspect ratio */
+.meeting-photos-top img {
+  flex: 1; /* This makes all images take up an equal amount of space */
+  height: auto;
+  max-height: 400px; /* Optional: Sets a maximum height to prevent overly large images */
+  object-fit: cover; /* Ensures images fill their container without distortion */
   border-radius: 8px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.meeting-photos-bottom {
+  margin-top: 2rem;
+}
+
+.meeting-photos-bottom img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 1.5rem; /* Adjust spacing between photos as needed */
+  border-radius: 8px;
 }

@@ -363,6 +363,7 @@ details {
 }
 
 .meeting-photos-top img {
+  display: inline-block; /* Override the default Minima 'display: block' */
   flex: 1; /* This makes all images take up an equal amount of space */
   height: auto;
   max-height: 400px; /* Optional: Sets a maximum height to prevent overly large images */

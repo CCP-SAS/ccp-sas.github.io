@@ -358,17 +358,29 @@ details {
 .meeting-photos-top {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.5rem; /* Adjust spacing between photos as needed */
+  gap: 1.5rem; /* This sets the space between the photos */
   margin: 1rem 0 2rem;
 }
 
 .meeting-photos-top img {
-  display: inline-block; /* Override the default Minima 'display: block' */
-  flex: 1; /* This makes all images take up an equal amount of space */
+  display: inline-block;
+  /*
+    Default width for when there are two or more images.
+    Takes up roughly half the container width.
+  */
+  width: calc(50% - 0.75rem);
   height: auto;
-  max-height: 400px; /* Optional: Sets a maximum height to prevent overly large images */
-  object-fit: cover; /* Ensures images fill their container without distortion */
+  max-height: 400px;
+  object-fit: cover;
   border-radius: 8px;
+}
+
+/*
+  New rule to fix sizing for single photos.
+  The :only-child pseudo-class targets an element that is the only child of its parent.
+*/
+.meeting-photos-top img:only-child {
+  width: 100%;
 }
 
 .meeting-photos-bottom {
@@ -379,6 +391,6 @@ details {
   display: block;
   width: 100%;
   height: auto;
-  margin-bottom: 1.5rem; /* Adjust spacing between photos as needed */
+  margin-bottom: 1.5rem;
   border-radius: 8px;
 }

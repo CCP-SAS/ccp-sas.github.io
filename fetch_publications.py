@@ -95,7 +95,18 @@ for item in items:
             doi = doi.replace('doi:', '').strip()
             doi_link = f"https://doi.org/{doi}"
 
+        # Get PMID from the standard field first
         pubmed_id = data.get('PMID', '')
+
+        # If PMID is not found, check the 'Extra' field
+        if not pubmed_id:
+            extra_field = data.get('extra', '')
+            if extra_field:
+                # Use regex to find a line starting with "PMID:"
+                match = re.search(r'^PMID:\s*(\d+)', extra_field, re.MULTILINE)
+                if match:
+                    pubmed_id = match.group(1)
+
         pubmed_link = ''
         if pubmed_id:
             # PMID is usually just the number, but ensure it's clean

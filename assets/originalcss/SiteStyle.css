@@ -123,12 +123,12 @@ a:hover {
    For those olde browsers we need to use the browser specific commands*/
     background-color:#19FCFC;
     background-image:url('../media/BannerImage.gif');
-    babackground-image: url('../media/BannerImage.gif'), -webkit-gradient(linear, left top, left bottom, from(#6C67F0), to(#19FCFC)); /*Safari version less than 5.1*/
-    background-image: url('../media/BannerImage.gif'), -webkit-linear-gradient(top, #6C67F0, #19FCFC); /*Safari version 5.1+*/
-    background-image: url('../media/BannerImage.gif'), -moz-linear-gradient(top, #6C67F0, #19FCFC); /*Firefox*/
-    background-image: url('../media/BannerImage.gif'), -o-linear-gradient(top, #6C67F0, #19FCFC); /*opera*/
-    background-image: url('../media/BannerImage.gif'), -ms-linear-gradient(top, #6C67F0, #19FCFC); /*IE10*/
-    background-image: url('../media/BannerImage.gif'), linear-gradient(top, #6C67F0, #19FCFC); /*standard*/
+    babackground-image: url('../../assets/originalmedia/BannerImage.gif'), -webkit-gradient(linear, left top, left bottom, from(#6C67F0), to(#19FCFC)); /*Safari version less than 5.1*/
+    background-image: url('../../assets/originalmedia/BannerImage.gif'), -webkit-linear-gradient(top, #6C67F0, #19FCFC); /*Safari version 5.1+*/
+    background-image: url('../../assets/originalmedia/BannerImage.gif'), -moz-linear-gradient(top, #6C67F0, #19FCFC); /*Firefox*/
+    background-image: url('../../assets/originalmedia/BannerImage.gif'), -o-linear-gradient(top, #6C67F0, #19FCFC); /*opera*/
+    background-image: url('../../assets/originalmedia/BannerImage.gif'), -ms-linear-gradient(top, #6C67F0, #19FCFC); /*IE10*/
+    background-image: url('../../assets/originalmedia/BannerImage.gif'), linear-gradient(top, #6C67F0, #19FCFC); /*standard*/
     -webkit-background-size: contain,cover;
     -moz-background-size: contain,cover;
     background-size: contain,cover;

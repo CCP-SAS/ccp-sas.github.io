@@ -1,7 +1,7 @@
 ---
 layout: meeting
-title: "First Anglo-Indian SASSIE Training Course - 2017"
-date: 2017-09-18 # 10:00:00 -0400 - Use the actual date and time
+title: "CCP-SAS workshop - Cosner's House - 2017"
+date: 2017-01-23 # 10:00:00 -0400 - Use the actual date and time
 top_photos: # List paths to your photos here (up to 2 will be displayed side by side at the top)
 #  - url: /assets/meetings/SASSI2_WorkshopAtAUC2019_reduced.JPG
 #    alt: "Team members collaborating"

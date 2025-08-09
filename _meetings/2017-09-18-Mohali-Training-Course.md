@@ -11,7 +11,7 @@ bottom_photos:
 #  - url: /assets/meetings/SASSI2_WorkshopAtAUC2019_reduced.JPG
 #    alt: "Group photo of the team"
 ---
-[First Anglo-Indian SASSIE Training Course](/Meetings/Courses/SASSIE-training-course-Mohali-Sep2017.pdf/), Indian
+[First Anglo-Indian SASSIE Training Course](/Meetings/Courses/SASSIE-training-course-Mohali-Sep2017.pdf), Indian
 Institute of Science Education & Research, Mohali, India - Sep 18-19 2017.
 
 **NOTE:** We would like to thank the University College London Global Engagement Fund for funding the Anglo-Indian SASSIE

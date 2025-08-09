@@ -13,4 +13,4 @@ bottom_photos:
 ---
 
 SASSIE: Software for Atomistic Modeling and Analysis of X-ray and Neutron Scattering Data: "SAXS and MD Combination".
-Small Angle Scattering Short Course 2016: Beyond Rg. Advanced Photon Source, Argonne, USA - Jul 1, 2016.</
+Small Angle Scattering Short Course 2016: Beyond Rg. Advanced Photon Source, Argonne, USA - Jul 1, 2016.

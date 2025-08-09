@@ -12,7 +12,7 @@ bottom_photos:
 #    alt: "Group photo of the team"p
 ---
 
-CCP-SAS hosted a [Satellite Workshop](/Meetings/BBS2020/Program.html) at the 60th anniversary meeting
+CCP-SAS hosted a [Satellite Workshop](/Meetings/BBS2020/Program.html){:target="_blank"} at the 60th anniversary meeting
 of the [British Biophysical Society](https://britishbiophysics.org). The goal of this mini-workshop was twofold:
 To provide a training opportunity for persons interested in learning how to use simulations tools in fitting SAS
 data and to bring the community together to hear about recent uses of these tools and learn about the latest

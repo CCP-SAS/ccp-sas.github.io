@@ -1,7 +1,7 @@
 ---
 layout: meeting
-title: "SASSIE Workshop at 2019 ISIS neutron course"
-date: 2019-06-27 # 10:00:00 -0400 - Use the actual date and time
+title: "SASSIE Training at 2019 SimSAS2019"
+date: 2019-04-11 # 10:00:00 -0400 - Use the actual date and time
 top_photos: # List paths to your photos here (up to 2 will be displayed side by side at the top)
   - url: /assets/meetings/simsas2019-sassie-course-reduced.jpg
 #    alt: "Team members collaborating"

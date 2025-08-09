@@ -1,6 +1,6 @@
 ---
 layout: meeting
-title: "2019 SASSIE Training Course in Faisalabad Pakistan"
+title: "2018 SASSIE Training Course in Faisalabad Pakistan"
 date: 2018-05-10 # 10:00:00 -0400 - Use the actual date and time
 top_photos: # List paths to your photos here (up to 2 will be displayed side by side at the top)
   - url: /assets/meetings/pakistan-sassie-course-may2018-1-reduced.jpg

@@ -11,5 +11,5 @@ bottom_photos:
 #  - url: /assets/meetings/SASSI2_WorkshopAtAUC2019_reduced.JPG
 #    alt: "Group photo of the team"
 ---
-[SASSIE CCP-SAS Workshop](https://sassie-web.chem.utk.edu/training/uk_2017/main.html target="_blank"),
+[SASSIE CCP-SAS Workshop](https://sassie-web.chem.utk.edu/training/uk_2017/main.html){:target="_blank"},
 The Cosener's House, ISIS Pulsed Neutron & Muon Source and Diamond Light Source, UK - Jan 23-25 2017.

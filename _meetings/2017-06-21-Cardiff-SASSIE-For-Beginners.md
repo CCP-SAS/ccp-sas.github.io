@@ -11,5 +11,5 @@ bottom_photos:
 #  - url: /assets/meetings/SASSI2_WorkshopAtAUC2019_reduced.JPG
 #    alt: "Group photo of the team"
 ---
-Tutorials: [SASSIE for Beginners & Introduction to GenApp](/Meetings/Fifth/Program.html), CCP-SAS 4th Annual Joint
+Tutorials: [SASSIE for Beginners & Introduction to GenApp](/Meetings/Fifth/Program.html){:target="_blank"}, CCP-SAS 4th Annual Joint
 Project Meeting, Cardiff University, Wales, UK - Jun 21 2017.

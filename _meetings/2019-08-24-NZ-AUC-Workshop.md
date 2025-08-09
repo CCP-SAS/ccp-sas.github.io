@@ -1,6 +1,6 @@
 ---
 layout: meeting
-title: "CCP-SAS workshops at AUC conference in NZ in 2020"
+title: "CCP-SAS workshops at AUC conference in NZ in 2019"
 date: 2019-08-24 # 10:00:00 -0400 - Use the actual date and time
 top_photos: # List paths to your photos here (up to 2 will be displayed side by side at the top)
   - url: /assets/meetings/SASSI2_WorkshopAtAUC2019_reduced.JPG

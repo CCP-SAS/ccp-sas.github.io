@@ -25,4 +25,5 @@ This page lists our historical meetings and significant events. Click on each ti
   {% endfor %}
 </ul>
 ### Annual Meetings:
-* [1st](/Meetings/kickoff/Program.html) ('Kickoff') Annual Joint Project Meeting in Gaithersburg, MD, USA - Feb 7-9, 2014
+* [1st](/Meetings/Kickoff/Program.html){:target="_blank"} ('Kickoff') Annual Joint Project Meeting in Gaithersburg,
+MD, USA - Feb 7-9, 2014
